@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Tuần Hoàn Nguyên tố Hoá Học</title>
+
+    <script src="https://kit.fontawesome.com/6baff69dac.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    {% block metadescription %}
+    <meta name="description" content="Bảng Hệ thống tuần hoàn các nguyên tố hoá học theo chương trình giáo dục mới">
+    {% endblock metadescription %}
+
+    <style>
+    /* HTML PART */
+        html {
+            scroll-behavior: smooth;
+            height: 100%;   
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            background-color: #fff;
+        }
+
+    /* NAVBAR */
+        #page-wrapper {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: clip;
+        }
+
+        .navbar {
+            padding-top: 8px !important;
+            padding-bottom: 8px !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            width: 100%;
+            background-color: #631d57;
+        }
+
+        .navbar-brand {
+            font-size: clamp(1.2rem, 4vw, 1.8rem) !important;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+            padding-left: 4px;
+            margin-right: 0.5rem !important;
+            transition: transform 0.3s ease;
+        }
+
+        .title-web {
+            color: white;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <div id="page-wrapper">
+        <nav class='navbar navbar-expand-lg  mb-4 border py-2 sticky-top' style='top:0; left:0; right:0;'>
+            <div class='container-fluid px-3'>
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <!-- Hiển thị trên cả Mobile lẫn PC/Laptop -->
+                    <a class='navbar-brand me-0' href="{% url 'webs:index' %}">
+                        <span class="title-web">Bảng Tuần hoàn</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="container my-4">
+            {% block content %}
+            {% endblock content %}
+        </div>
+
+    </div>
+    
+</body>
+</html>
