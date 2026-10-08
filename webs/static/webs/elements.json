@@ -16,7 +16,7 @@
             "group": 1,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Hydrogen",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen_srp_th.png",
+            "bohr_model_image": "images/1_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
             "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
@@ -38,7 +38,7 @@
             "cpk-hex": "ffffff",
             "image": {
                 "title": "Vial of glowing ultrapure hydrogen, H2. Original size in cm: 1 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hydrogenglow.jpg",
+                "url": "images/1_real.jpg",
                 "attribution": "User:Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/hydrogen.php"
             },
             "block": "s"
@@ -59,7 +59,7 @@
             "group": 18,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Helium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium_srp_th.png",
+            "bohr_model_image": "images/2_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Helium_spectrum.jpg",
             "summary": "Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the periodic table. Its boiling and melting points are the lowest among all the elements.",
@@ -82,7 +82,7 @@
             "cpk-hex": "d9ffff",
             "image": {
                 "title": "Vial of glowing ultrapure helium. Original size in cm: 1 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Helium-glow.jpg",
+                "url": "images/2_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/helium.php"
             },
             "block": "s"
@@ -103,7 +103,7 @@
             "group": 1,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lithium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_003_lithium/element_003_lithium_srp_th.png",
+            "bohr_model_image": "images/3_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_003_lithium/element_003_lithium.glb",
             "spectral_img": null,
             "summary": "Lithium (from Greek:λίθος lithos, \"stone\") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.",
@@ -128,7 +128,7 @@
             "cpk-hex": "cc80ff",
             "image": {
                 "title": "0.5 Grams Lithium under Argon. Original size of the largest piece in cm: 0.3 x 4",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/0.5_grams_lithium_under_argon.jpg",
+                "url": "images/3_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lithium.php"
             },
             "block": "s"
@@ -149,7 +149,7 @@
             "group": 2,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Beryllium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_004_beryllium/element_004_beryllium_srp_th.png",
+            "bohr_model_image": "images/4_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_004_beryllium/element_004_beryllium.glb",
             "spectral_img": null,
             "summary": "Beryllium is a chemical element with symbol Be and atomic number 4. It is created through stellar nucleosynthesis and is a relatively rare element in the universe. It is a divalent element which occurs naturally only in combination with other elements in minerals.",
@@ -175,7 +175,7 @@
             "cpk-hex": "c2ff00",
             "image": {
                 "title": "Pure Beryllium bead, 2.5 grams. Original size in cm: 1 x 1.5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Beryllium_%28Be%29.jpg",
+                "url": "images/4_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/beryllium.php"
             },
             "block": "s"
@@ -196,7 +196,7 @@
             "group": 13,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Boron",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_005_boron/element_005_boron_srp_th.png",
+            "bohr_model_image": "images/5_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_005_boron/element_005_boron.glb",
             "spectral_img": null,
             "summary": "Boron is a metalloid chemical element with symbol B and atomic number 5. Produced entirely by cosmic ray spallation and supernovae and not by stellar nucleosynthesis, it is a low-abundance element in both the Solar system and the Earth's crust. Boron is concentrated on Earth by the water-solubility of its more common naturally occurring compounds, the borate minerals.",
@@ -223,7 +223,7 @@
             "cpk-hex": "ffb5b5",
             "image": {
                 "title": "Pure Crystalline Boron, front and back side. Original size in cm: 2 x 3",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Boron.jpg",
+                "url": "images/5_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/boron.php"
             },
             "block": "p"
@@ -244,7 +244,7 @@
             "group": 14,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Carbon",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_006_carbon/element_006_carbon_srp_th.png",
+            "bohr_model_image": "images/6_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_006_carbon/element_006_carbon.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Carbon_Spectra.jpg",
             "summary": "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds.",
@@ -272,7 +272,7 @@
             "cpk-hex": "909090",
             "image": {
                 "title": "Element 6 - Carbon",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pure_Carbon.png",
+                "url": "images/6_real.png",
                 "attribution": "Texas Lane, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
             },
             "block": "p"
@@ -293,7 +293,7 @@
             "group": 15,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Nitrogen",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen_srp_th.png",
+            "bohr_model_image": "images/7_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Nitrogen_Spectra.jpg",
             "summary": "Nitrogen is a chemical element with symbol N and atomic number 7. It is the lightest pnictogen and at room temperature, it is a transparent, odorless diatomic gas. Nitrogen is a common element in the universe, estimated at about seventh in total abundance in the Milky Way and the Solar System.",
@@ -322,7 +322,7 @@
             "cpk-hex": "3050f8",
             "image": {
                 "title": "Vial of Glowing Ultrapure Nitrogen, N2. Original size in cm: 1 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nitrogen-glow.jpg",
+                "url": "images/7_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/nitrogen.php"
             },
             "block": "p"
@@ -343,7 +343,7 @@
             "group": 16,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Oxygen",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_008_oxygen/element_008_oxygen_srp_th.png",
+            "bohr_model_image": "images/8_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_008_oxygen/element_008_oxygen.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Oxygen_spectre.jpg",
             "summary": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",
@@ -373,7 +373,7 @@
             "cpk-hex": "ff0d0d",
             "image": {
                 "title": "Liquid Oxygen in a Beaker",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Liquid_oxygen_in_a_beaker_%28cropped_and_retouched%29.jpg",
+                "url": "images/8_real.jpg",
                 "attribution": "Staff Sgt. Nika Glover, U.S. Air Force, Public domain, via Wikimedia Commons"
             },
             "block": "p"
@@ -394,7 +394,7 @@
             "group": 17,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Fluorine",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_009_fluorine/element_009_fluorine_srp_th.png",
+            "bohr_model_image": "images/9_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_009_fluorine/element_009_fluorine.glb",
             "spectral_img": null,
             "summary": "Fluorine is a chemical element with symbol F and atomic number 9. It is the lightest halogen and exists as a highly toxic pale yellow diatomic gas at standard conditions. As the most electronegative element, it is extremely reactive:almost all other elements, including some noble gases, form compounds with fluorine.",
@@ -425,7 +425,7 @@
             "cpk-hex": "90e050",
             "image": {
                 "title": "Liquid Fluorine at -196°C",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg",
+                "url": "images/9_real.jpg",
                 "attribution": "Fulvio314, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "p"
@@ -446,7 +446,7 @@
             "group": 18,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Neon",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_010_neon/element_010_neon_srp_th.png",
+            "bohr_model_image": "images/10_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_010_neon/element_010_neon.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
             "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
@@ -478,7 +478,7 @@
             "cpk-hex": "b3e3f5",
             "image": {
                 "title": "Vial of Glowing Ultrapure neon. Original size in cm: 1 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Neon-glow.jpg",
+                "url": "images/10_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/neon.php"
             },
             "block": "p"
@@ -499,7 +499,7 @@
             "group": 1,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Sodium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_011_sodium/element_011_sodium_srp_th.png",
+            "bohr_model_image": "images/11_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_011_sodium/element_011_sodium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Sodium_Spectra.jpg",
             "summary": "Sodium /ˈsoʊdiəm/ is a chemical element with symbol Na (from Ancient Greek Νάτριο) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
@@ -533,7 +533,7 @@
             "cpk-hex": "ab5cf2",
             "image": {
                 "title": "Na (Sodium) Metal",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Na_%28Sodium%29.jpg",
+                "url": "images/11_real.jpg",
                 "attribution": "The original uploader was Dnn87 at English Wikipedia., CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "s"
@@ -554,7 +554,7 @@
             "group": 2,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Magnesium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_012_magnesium/element_012_magnesium_srp_th.png",
+            "bohr_model_image": "images/12_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_012_magnesium/element_012_magnesium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Magnesium_Spectra.jpg",
             "summary": "Magnesium is a chemical element with symbol Mg and atomic number 12. It is a shiny gray solid which bears a close physical resemblance to the other five elements in the second column (Group 2, or alkaline earth metals) of the periodic table:they each have the same electron configuration in their outer electron shell producing a similar crystal structure. Magnesium is the ninth most abundant element in the universe.",
@@ -589,7 +589,7 @@
             "cpk-hex": "8aff00",
             "image": {
                 "title": "Magnesium crystals",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Magnesium_crystals.jpg",
+                "url": "images/12_real.jpg",
                 "attribution": "Warut Roonguthai, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "s"
@@ -610,7 +610,7 @@
             "group": 13,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Aluminium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_013_aluminum/element_013_aluminum_srp_th.png",
+            "bohr_model_image": "images/13_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_013_aluminum/element_013_aluminum.glb",
             "spectral_img": null,
             "summary": "Aluminium (or aluminum; see different endings) is a chemical element in the boron group with symbol Al and atomic number 13. It is a silvery-white, soft, nonmagnetic, ductile metal. Aluminium is the third most abundant element (after oxygen and silicon), and the most abundant metal, in the Earth's crust.",
@@ -646,7 +646,7 @@
             "cpk-hex": "bfa6a6",
             "image": {
                 "title": "Pure aluminium foil. Original size in cm: 5 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aluminium.jpg",
+                "url": "images/13_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/aluminium.php "
             },
             "block": "p"
@@ -667,7 +667,7 @@
             "group": 14,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Silicon",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_014_silicon/element_014_silicon_srp_th.png",
+            "bohr_model_image": "images/14_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_014_silicon/element_014_silicon.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Silicon_Spectra.jpg",
             "summary": "Silicon is a chemical element with symbol Si and atomic number 14. It is a tetravalent metalloid, more reactive than germanium, the metalloid directly below it in the table. Controversy about silicon's character dates to its discovery.",
@@ -704,7 +704,7 @@
             "cpk-hex": "f0c8a0",
             "image": {
                 "title": "Chunk of Ultrapure Silicon, 2 x 2 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Silicon.jpg",
+                "url": "images/14_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/silicon.php"
             },
             "block": "p"
@@ -725,7 +725,7 @@
             "group": 15,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Phosphorus",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_015_phosphorus/element_015_phosphorus_srp_th.png",
+            "bohr_model_image": "images/15_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_015_phosphorus/element_015_phosphorus.glb",
             "spectral_img": null,
             "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms—white phosphorus and red phosphorus—but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
@@ -763,7 +763,7 @@
             "cpk-hex": "ff8000",
             "image": {
                 "title": "Purple Phosphorus",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Phosphorus-purple.jpg",
+                "url": "images/15_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/phosphorus.php"
             },
             "block": "p"
@@ -784,7 +784,7 @@
             "group": 16,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Sulfur",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_016_sulfur/element_016_sulfur_srp_th.png",
+            "bohr_model_image": "images/16_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_016_sulfur/element_016_sulfur.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Sulfur_Spectrum.jpg",
             "summary": "Sulfur or sulphur (see spelling differences) is a chemical element with symbol S and atomic number 16. It is an abundant, multivalent non-metal. Under normal conditions, sulfur atoms form cyclic octatomic molecules with chemical formula S8.",
@@ -823,7 +823,7 @@
             "cpk-hex": "ffff30",
             "image": {
                 "title": "Native Sulfur From Russia",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Native_sulfur_%28Vodinskoe_Deposit%3B_quarry_near_Samara%2C_Russia%29_9.jpg",
+                "url": "images/16_real.jpg",
                 "attribution": "James St. John, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons"
             },
             "block": "p"
@@ -844,7 +844,7 @@
             "group": 17,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Chlorine",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_017_chlorine/element_017_chlorine_srp_th.png",
+            "bohr_model_image": "images/17_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_017_chlorine/element_017_chlorine.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Chlorine_spectrum_visible.png",
             "summary": "Chlorine is a chemical element with symbol Cl and atomic number 17. It also has a relative atomic mass of 35.5. Chlorine is in the halogen group (17) and is the second lightest halogen following fluorine.",
@@ -884,7 +884,7 @@
             "cpk-hex": "1ff01f",
             "image": {
                 "title": "A Sample of Chlorine",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Chlorine-sample-flip.jpg",
+                "url": "images/17_real.jpg",
                 "attribution": "Benjah-bmm27, Public domain, via Wikimedia Commons"
             },
             "block": "p"
@@ -905,7 +905,7 @@
             "group": 18,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Argon",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_018_argon/element_018_argon_srp_th.png",
+            "bohr_model_image": "images/18_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_018_argon/element_018_argon.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Argon_Spectrum.png",
             "summary": "Argon is a chemical element with symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most common gas in the Earth's atmosphere, at 0.934% (9,340 ppmv), making it over twice as abundant as the next most common atmospheric gas, water vapor (which averages about 4000 ppmv, but varies greatly), and 23 times as abundant as the next most common non-condensing atmospheric gas, carbon dioxide (400 ppmv), and more than 500 times as abundant as the next most common noble gas, neon (18 ppmv).",
@@ -946,7 +946,7 @@
             "cpk-hex": "80d1e3",
             "image": {
                 "title": "Vial of glowing ultrapure argon. Original size in cm: 1 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Argon-glow.jpg",
+                "url": "images/18_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/argon.php"
             },
             "block": "p"
@@ -967,7 +967,7 @@
             "group": 1,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Potassium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_019_potassium/element_019_potassium_srp_th.png",
+            "bohr_model_image": "images/19_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_019_potassium/element_019_potassium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Potassium_Spectrum.jpg",
             "summary": "Potassium is a chemical element with symbol K (derived from Neo-Latin, kalium) and atomic number 19. It was first isolated from potash, the ashes of plants, from which its name is derived. In the Periodic table, potassium is one of seven elements in column (group) 1 (alkali metals):they all have a single valence electron in their outer electron shell, which they readily give up to create an atom with a positive charge - a cation, and combine with anions to form salts.",
@@ -1010,7 +1010,7 @@
             "cpk-hex": "8f40d4",
             "image": {
                 "title": "Potassium Pieces",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Potassium.JPG",
+                "url": "images/19_real.jpg",
                 "attribution": "Dnn87, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
             },
             "block": "s"
@@ -1031,7 +1031,7 @@
             "group": 2,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Calcium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_020_calcium/element_020_calcium_srp_th.png",
+            "bohr_model_image": "images/20_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_020_calcium/element_020_calcium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Calcium_Spectrum.png",
             "summary": "Calcium is a chemical element with symbol Ca and atomic number 20. Calcium is a soft gray alkaline earth metal, fifth-most-abundant element by mass in the Earth's crust. The ion Ca2+ is also the fifth-most-abundant dissolved ion in seawater by both molarity and mass, after sodium, chloride, magnesium, and sulfate.",
@@ -1075,7 +1075,7 @@
             "cpk-hex": "3dff00",
             "image": {
                 "title": "Calcium Grains, grain size about 1 mm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Calcium.jpg",
+                "url": "images/20_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/calcium.php"
             },
             "block": "s"
@@ -1096,7 +1096,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Scandium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_021_scandium/element_021_scandium_srp_th.png",
+            "bohr_model_image": "images/21_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_021_scandium/element_021_scandium.glb",
             "spectral_img": null,
             "summary": "Scandium is a chemical element with symbol Sc and atomic number 21. A silvery-white metallic d-block element, it has historically been sometimes classified as a rare earth element, together with yttrium and the lanthanoids. It was discovered in 1879 by spectral analysis of the minerals euxenite and gadolinite from Scandinavia.",
@@ -1141,7 +1141,7 @@
             "cpk-hex": "e6e6e6",
             "image": {
                 "title": "Crystal of Scandium. About 1g",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Scandium%2C_Sc.jpg",
+                "url": "images/21_real.jpg",
                 "attribution": "JanDerChemiker, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -1162,7 +1162,7 @@
             "group": 4,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Titanium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_022_titanium/element_022_titanium_srp_th.png",
+            "bohr_model_image": "images/22_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_022_titanium/element_022_titanium.glb",
             "spectral_img": null,
             "summary": "Titanium is a chemical element with symbol Ti and atomic number 22. It is a lustrous transition metal with a silver color, low density and high strength. It is highly resistant to corrosion in sea water, aqua regia and chlorine.",
@@ -1208,7 +1208,7 @@
             "cpk-hex": "bfc2c7",
             "image": {
                 "title": "Titanium Crystal made with the van Arkel-de Booer Process. 87 grams, Original size in cm: 2.5 x 4",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Titanium.jpg",
+                "url": "images/22_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/titanium.php"
             },
             "block": "d"
@@ -1229,7 +1229,7 @@
             "group": 5,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Vanadium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_023_vanadium/element_023_vanadium_srp_th.png",
+            "bohr_model_image": "images/23_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_023_vanadium/element_023_vanadium.glb",
             "spectral_img": null,
             "summary": "Vanadium is a chemical element with symbol V and atomic number 23. It is a hard, silvery grey, ductile and malleable transition metal. The element is found only in chemically combined form in nature, but once isolated artificially, the formation of an oxide layer stabilizes the free metal somewhat against further oxidation.",
@@ -1276,7 +1276,7 @@
             "cpk-hex": "a6a6ab",
             "image": {
                 "title": "Pieces of Pure Vanadium with Oxide Layer",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Vanadium-pieces.jpg",
+                "url": "images/23_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/vanadium.php"
             },
             "block": "d"
@@ -1297,7 +1297,7 @@
             "group": 6,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Chromium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium_srp_th.png",
+            "bohr_model_image": "images/24_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium.glb",
             "spectral_img": null,
             "summary": "Chromium is a chemical element with symbol Cr and atomic number 24. It is the first element in Group 6. It is a steely-gray, lustrous, hard and brittle metal which takes a high polish, resists tarnishing, and has a high melting point.",
@@ -1345,7 +1345,7 @@
             "cpk-hex": "8a99c7",
             "image": {
                 "title": "Piece of Chromium Metal",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Chromium.jpg",
+                "url": "images/24_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/chromium.php"
             },
             "block": "d"
@@ -1366,7 +1366,7 @@
             "group": 7,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Manganese",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_025_manganese/element_025_manganese_srp_th.png",
+            "bohr_model_image": "images/25_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_025_manganese/element_025_manganese.glb",
             "spectral_img": null,
             "summary": "Manganese is a chemical element with symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in combination with iron, and in many minerals. Manganese is a metal with important industrial metal alloy uses, particularly in stainless steels.",
@@ -1415,7 +1415,7 @@
             "cpk-hex": "9c7ac7",
             "image": {
                 "title": "Two Oieces of Manganese Metal",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Manganese_element.jpg",
+                "url": "images/25_real.jpg",
                 "attribution": "W. Oelen, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -1436,7 +1436,7 @@
             "group": 8,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Iron",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_026_iron/element_026_iron_srp_th.png",
+            "bohr_model_image": "images/26_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_026_iron/element_026_iron.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Iron_Spectrum.jpg",
             "summary": "Iron is a chemical element with symbol Fe (from Latin:ferrum) and atomic number 26. It is a metal in the first transition series. It is by mass the most common element on Earth, forming much of Earth's outer and inner core.",
@@ -1486,7 +1486,7 @@
             "cpk-hex": "e06633",
             "image": {
                 "title": "Fragments of an iron meteorite, about 92% iron. Original size of the single pieces in cm: 0.4 - 0.8",
-                "url": "https://images-of-elements.com/iron-2.jpg",
+                "url": "images/26_real.jpg",
                 "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/iron.php"
             },
             "block": "d"
@@ -1507,7 +1507,7 @@
             "group": 9,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Cobalt",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_027_cobalt/element_027_cobalt_srp_th.png",
+            "bohr_model_image": "images/27_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_027_cobalt/element_027_cobalt.glb",
             "spectral_img": null,
             "summary": "Cobalt is a chemical element with symbol Co and atomic number 27. Like nickel, cobalt in the Earth's crust is found only in chemically combined form, save for small deposits found in alloys of natural meteoric iron. The free element, produced by reductive smelting, is a hard, lustrous, silver-gray metal.",
@@ -1558,7 +1558,7 @@
             "cpk-hex": "f090a0",
             "image": {
                 "title": "Fractions from a cobalt, 7 and 4 grams. Original size in cm: 2 x 2",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Cobalt_ore_2.jpg",
+                "url": "images/27_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/cobalt.php"
             },
             "block": "d"
@@ -1579,7 +1579,7 @@
             "group": 10,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Nickel",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_028_nickel/element_028_nickel_srp_th.png",
+            "bohr_model_image": "images/28_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_028_nickel/element_028_nickel.glb",
             "spectral_img": null,
             "summary": "Nickel is a chemical element with symbol Ni and atomic number 28. It is a silvery-white lustrous metal with a slight golden tinge. Nickel belongs to the transition metals and is hard and ductile.",
@@ -1631,7 +1631,7 @@
             "cpk-hex": "50d050",
             "image": {
                 "title": "Nickel Chunk",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nickel_chunk.jpg",
+                "url": "images/28_real.jpg",
                 "attribution": "Materialscientist at English Wikipedia, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -1652,7 +1652,7 @@
             "group": 11,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Copper",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_029_copper/element_029_copper_srp_th.png",
+            "bohr_model_image": "images/29_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_029_copper/element_029_copper.glb",
             "spectral_img": null,
             "summary": "Copper is a chemical element with symbol Cu (from Latin:cuprum) and atomic number 29. It is a soft, malleable and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a reddish-orange color.",
@@ -1705,7 +1705,7 @@
             "cpk-hex": "c88033",
             "image": {
                 "title": "Macro of Native Copper about 1 ½ inches (4 cm) in size",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NatCopper.jpg",
+                "url": "images/29_real.jpg",
                 "attribution": "Native_Copper_Macro_Digon3.jpg: 'Jonathan Zander (Digon3)' derivative work: Materialscientist, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons"
             },
             "block": "d"
@@ -1726,7 +1726,7 @@
             "group": 12,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Zinc",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_030_zinc/element_030_zinc_srp_th.png",
+            "bohr_model_image": "images/30_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_030_zinc/element_030_zinc.glb",
             "spectral_img": null,
             "summary": "Zinc, in commerce also spelter, is a chemical element with symbol Zn and atomic number 30. It is the first element of group 12 of the periodic table. In some respects zinc is chemically similar to magnesium:its ion is of similar size and its only common oxidation state is +2.",
@@ -1771,7 +1771,7 @@
             "cpk-hex": "7d80b0",
             "image": {
                 "title": "30 grams Zinc, front and back side. Original size in cm: 3",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Zinc_%2830_Zn%29.jpg",
+                "url": "images/30_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/zinc.php"
             },
             "block": "d"
@@ -1792,7 +1792,7 @@
             "group": 13,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Gallium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_031_gallium/element_031_gallium_srp_th.png",
+            "bohr_model_image": "images/31_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_031_gallium/element_031_gallium.glb",
             "spectral_img": null,
             "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 °C (85.57 °F) (slightly above room temperature).",
@@ -1820,7 +1820,7 @@
             "cpk-hex": "c28f8f",
             "image": {
                 "title": "Solid gallium, fresh and after some time (2 months) at room temperature",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Solid_gallium_%28Ga%29.jpg",
+                "url": "images/31_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/gallium.php"
             },
             "block": "p"
@@ -1841,7 +1841,7 @@
             "group": 14,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Germanium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_032_germanium/element_032_germanium_srp_th.png",
+            "bohr_model_image": "images/32_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_032_germanium/element_032_germanium.glb",
             "spectral_img": null,
             "summary": "Germanium is a chemical element with symbol Ge and atomic number 32. It is a lustrous, hard, grayish-white metalloid in the carbon group, chemically similar to its group neighbors tin and silicon. Purified germanium is a semiconductor, with an appearance most similar to elemental silicon.",
@@ -1870,7 +1870,7 @@
             "cpk-hex": "668f8f",
             "image": {
                 "title": "12 Grams Polycrystalline Germanium, 2*3 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Polycrystalline-germanium.jpg",
+                "url": "images/32_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/germanium.php"
             },
             "block": "p"
@@ -1891,7 +1891,7 @@
             "group": 15,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Arsenic",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_033_arsenic/element_033_arsenic_srp_th.png",
+            "bohr_model_image": "images/33_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_033_arsenic/element_033_arsenic.glb",
             "spectral_img": null,
             "summary": "Arsenic is a chemical element with symbol As and atomic number 33. Arsenic occurs in many minerals, usually in conjunction with sulfur and metals, and also as a pure elemental crystal. Arsenic is a metalloid.",
@@ -1921,7 +1921,7 @@
             "cpk-hex": "bd80e3",
             "image": {
                 "title": "Ultrapure Metallic Arsenic under Argon, 1 - 2 grams. Original size of each piece in cm: 0.5 x 1",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Arsenic_%2833_As%29.jpg",
+                "url": "images/33_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/arsenic.php"
             },
             "block": "p"
@@ -1942,7 +1942,7 @@
             "group": 16,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Selenium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_034_selenium/element_034_selenium_srp_th.png",
+            "bohr_model_image": "images/34_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_034_selenium/element_034_selenium.glb",
             "spectral_img": null,
             "summary": "Selenium is a chemical element with symbol Se and atomic number 34. It is a nonmetal with properties that are intermediate between those of its periodic table column-adjacent chalcogen elements sulfur and tellurium. It rarely occurs in its elemental state in nature, or as pure ore compounds.",
@@ -1973,7 +1973,7 @@
             "cpk-hex": "ffa100",
             "image": {
                 "title": "Ultrapure Black, Amorphous Selenium, 3 - 4 grams. Original size in cm: 2",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Selenium.jpg",
+                "url": "images/34_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/selenium.php"
             },
             "block": "p"
@@ -1994,7 +1994,7 @@
             "group": 17,
             "phase": "Liquid",
             "source": "https://en.wikipedia.org/wiki/Bromine",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_035_bromine/element_035_bromine_srp_th.png",
+            "bohr_model_image": "images/35_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_035_bromine/element_035_bromine.glb",
             "spectral_img": null,
             "summary": "Bromine (from Ancient Greek:βρῶμος, brómos, meaning \"stench\") is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob Löwig and Antoine Jerome Balard, in 1825–1826.",
@@ -2026,7 +2026,7 @@
             "cpk-hex": "a62929",
             "image": {
                 "title": "99.5 % pure liquid Bromine in a 4 x 1 cm big glass ampoule, cast in acrylic",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bromine-ampoule.jpg",
+                "url": "images/35_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/bromine.php"
             },
             "block": "p"
@@ -2047,7 +2047,7 @@
             "group": 18,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Krypton",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_036_krypton/element_036_krypton_srp_th.png",
+            "bohr_model_image": "images/36_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_036_krypton/element_036_krypton.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Krypton_Spectrum.jpg",
             "summary": "Krypton (from Greek:κρυπτός kryptos \"the hidden one\") is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.",
@@ -2101,7 +2101,7 @@
             "cpk-hex": "5cb8d1",
             "image": {
                 "title": "Vial of Glowing Ultrapure Krypton. Original size in cm: 1 x 5.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Krypton-glow.jpg",
+                "url": "images/36_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/krypton.php"
             },
             "block": "p"
@@ -2122,7 +2122,7 @@
             "group": 1,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Rubidium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_037_rubidium/element_037_rubidium_srp_th.png",
+            "bohr_model_image": "images/37_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_037_rubidium/element_037_rubidium.glb",
             "spectral_img": null,
             "summary": "Rubidium is a chemical element with symbol Rb and atomic number 37. Rubidium is a soft, silvery-white metallic element of the alkali metal group, with an atomic mass of 85.4678. Elemental rubidium is highly reactive, with properties similar to those of other alkali metals, such as very rapid oxidation in air.",
@@ -2157,7 +2157,7 @@
             "cpk-hex": "702eb0",
             "image": {
                 "title": "Rubidium Metal Sample",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rb5.JPG",
+                "url": "images/37_real.jpg",
                 "attribution": "Dnn87, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
             },
             "block": "s"
@@ -2178,7 +2178,7 @@
             "group": 2,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Strontium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_038_strontium/element_038_strontium_srp_th.png",
+            "bohr_model_image": "images/38_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_038_strontium/element_038_strontium.glb",
             "spectral_img": null,
             "summary": "Strontium is a chemical element with symbol Sr and atomic number 38. An alkaline earth metal, strontium is a soft silver-white or yellowish metallic element that is highly reactive chemically. The metal turns yellow when it is exposed to air.",
@@ -2214,7 +2214,7 @@
             "cpk-hex": "00ff00",
             "image": {
                 "title": "Strontium Pieces under Paraffin Oil.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Strontium-1.jpg",
+                "url": "images/38_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/strontium.php"
             },
             "block": "s"
@@ -2235,7 +2235,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Yttrium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_039_yttrium/element_039_yttrium_srp_th.png",
+            "bohr_model_image": "images/39_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_039_yttrium/element_039_yttrium.glb",
             "spectral_img": null,
             "summary": "Yttrium is a chemical element with symbol Y and atomic number 39. It is a silvery-metallic transition metal chemically similar to the lanthanides and it has often been classified as a \"rare earth element\". Yttrium is almost always found combined with the lanthanides in rare earth minerals and is never found in nature as a free element.",
@@ -2272,7 +2272,7 @@
             "cpk-hex": "94ffff",
             "image": {
                 "title": "6,21g Yttrium, Reinheit mindestens 99%.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Piece_of_Yttrium.jpg",
+                "url": "images/39_real.jpg",
                 "attribution": "Jan Anskeit, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -2293,7 +2293,7 @@
             "group": 4,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Zirconium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_040_zirconium/element_040_zirconium_srp_th.png",
+            "bohr_model_image": "images/40_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_040_zirconium/element_040_zirconium.glb",
             "spectral_img": null,
             "summary": "Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun زرگون, meaning \"gold-colored\".",
@@ -2324,7 +2324,7 @@
             "cpk-hex": "94e0e0",
             "image": {
                 "title": "Two pieces of Zirconium, 1 cm each.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zirconium-pieces.jpg",
+                "url": "images/40_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/zirconium.php"
             },
             "block": "d"
@@ -2345,7 +2345,7 @@
             "group": 5,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Niobium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium_srp_th.png",
+            "bohr_model_image": "images/41_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium.glb",
             "spectral_img": null,
             "summary": "Niobium, formerly columbium, is a chemical element with symbol Nb (formerly Cb) and atomic number 41. It is a soft, grey, ductile transition metal, which is often found in the pyrochlore mineral, the main commercial source for niobium, and columbite. The name comes from Greek mythology:Niobe, daughter of Tantalus since it is so similar to tantalum.",
@@ -2377,7 +2377,7 @@
             "cpk-hex": "73c2c9",
             "image": {
                 "title": "Niobium strips",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Niobium_strips.JPG",
+                "url": "images/41_real.jpg",
                 "attribution": "Mauro Cateb, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -2398,7 +2398,7 @@
             "group": 6,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Molybdenum",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_042_molybdenum/element_042_molybdenum_srp_th.png",
+            "bohr_model_image": "images/42_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_042_molybdenum/element_042_molybdenum.glb",
             "spectral_img": null,
             "summary": "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek Μόλυβδος molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.",
@@ -2453,7 +2453,7 @@
             "cpk-hex": "54b5b5",
             "image": {
                 "title": "99.9 Pure Molybdenum Crystal, about 2 x 3 cm, with anodisation color",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Molybdenum.jpg",
+                "url": "images/42_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/molybdenum.php"
             },
             "block": "d"
@@ -2474,7 +2474,7 @@
             "group": 7,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Technetium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_043_technetium/element_043_technetium_srp_th.png",
+            "bohr_model_image": "images/43_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_043_technetium/element_043_technetium.glb",
             "spectral_img": null,
             "summary": "Technetium (/tɛkˈniːʃiəm/) is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.",
@@ -2502,7 +2502,7 @@
             "cpk-hex": "3b9e9e",
             "image": {
                 "title": "Technetium Sample inside a sealed glass ampoule, filled with argon gas. 6x1 mm goldfoil covered with 99Tc powder (electroplated).",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
+                "url": "images/43_real.jpg",
                 "attribution": "GFDL, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -2523,7 +2523,7 @@
             "group": 8,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Ruthenium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_044_ruthenium/element_044_ruthenium_srp_th.png",
+            "bohr_model_image": "images/44_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_044_ruthenium/element_044_ruthenium.glb",
             "spectral_img": null,
             "summary": "Ruthenium is a chemical element with symbol Ru and atomic number 44. It is a rare transition metal belonging to the platinum group of the periodic table. Like the other metals of the platinum group, ruthenium is inert to most other chemicals.",
@@ -2551,7 +2551,7 @@
             "cpk-hex": "248f8f",
             "image": {
                 "title": "Ruthenium Crystal, 0.6 grams, 0.6 x 1.3 cm size",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ruthenium_crystal.jpg",
+                "url": "images/44_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/ruthenium.php"
             },
             "block": "d"
@@ -2572,7 +2572,7 @@
             "group": 9,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Rhodium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_045_rhodium/element_045_rhodium_srp_th.png",
+            "bohr_model_image": "images/45_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_045_rhodium/element_045_rhodium.glb",
             "spectral_img": null,
             "summary": "Rhodium is a chemical element with symbol Rh and atomic number 45. It is a rare, silvery-white, hard, and chemically inert transition metal. It is a member of the platinum group.",
@@ -2600,7 +2600,7 @@
             "cpk-hex": "0a7d8c",
             "image": {
                 "title": "Pure Rhodium Bead, 1 gram. Original size in cm: 0.5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rhodium_%28Rh%29.jpg",
+                "url": "images/45_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/rhodium.php"
             },
             "block": "d"
@@ -2621,7 +2621,7 @@
             "group": 10,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Palladium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_046_palladium/element_046_palladium_srp_th.png",
+            "bohr_model_image": "images/46_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_046_palladium/element_046_palladium.glb",
             "spectral_img": null,
             "summary": "Palladium is a chemical element with symbol Pd and atomic number 46. It is a rare and lustrous silvery-white metal discovered in 1803 by William Hyde Wollaston. He named it after the asteroid Pallas, which was itself named after the epithet of the Greek goddess Athena, acquired by her when she slew Pallas.",
@@ -2648,7 +2648,7 @@
             "cpk-hex": "006985",
             "image": {
                 "title": "Palladium Crystal, about 1 gram. Original size in cm: 0.5 x 1",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+                "url": "images/46_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/palladium.php"
             },
             "block": "d"
@@ -2669,7 +2669,7 @@
             "group": 11,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Silver",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_047_silver/element_047_silver_srp_th.png",
+            "bohr_model_image": "images/47_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_047_silver/element_047_silver.glb",
             "spectral_img": null,
             "summary": "Silver is a chemical element with symbol Ag (Greek:άργυρος árguros, Latin:argentum, both from the Indo-European root *h₂erǵ- for \"grey\" or \"shining\") and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.",
@@ -2697,7 +2697,7 @@
             "cpk-hex": "c0c0c0",
             "image": {
                 "title": "Natural silver nugget, 1 cm long.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Silver-nugget.jpg",
+                "url": "images/47_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: http://images-of-elements.com/silver.php"
             },
             "block": "d"
@@ -2718,7 +2718,7 @@
             "group": 12,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Cadmium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_048_cadmium/element_048_cadmium_srp_th.png",
+            "bohr_model_image": "images/48_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_048_cadmium/element_048_cadmium.glb",
             "spectral_img": null,
             "summary": "Cadmium is a chemical element with symbol Cd and atomic number 48. This soft, bluish-white metal is chemically similar to the two other stable metals in group 12, zinc and mercury. Like zinc, it prefers oxidation state +2 in most of its compounds and like mercury it shows a low melting point compared to transition metals.",
@@ -2746,7 +2746,7 @@
             "cpk-hex": "ffd98f",
             "image": {
                 "title": "48 Cd Cadmium",
-                "url": "https://images-of-elements.com/cadmium-4.jpg",
+                "url": "images/48_real.jpg",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/cadmium.php"
             },
             "block": "d"
@@ -2767,7 +2767,7 @@
             "group": 13,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Indium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_049_indium/element_049_indium_srp_th.png",
+            "bohr_model_image": "images/49_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_049_indium/element_049_indium.glb",
             "spectral_img": null,
             "summary": "Indium is a chemical element with symbol In and atomic number 49. It is a post-transition metallic element that is rare in Earth's crust. The metal is very soft, malleable and easily fusible, with a melting point higher than sodium, but lower than lithium or tin.",
@@ -2796,7 +2796,7 @@
             "cpk-hex": "a67573",
             "image": {
                 "title": "1.5 x 1.5 cm liquid indium",
-                "url": "https://images-of-elements.com/indium-2.jpg",
+                "url": "images/49_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: http://images-of-elements.com/indium.php"
             },
             "block": "p"
@@ -2817,7 +2817,7 @@
             "group": 14,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Tin",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin_srp_th.png",
+            "bohr_model_image": "images/50_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin.glb",
             "spectral_img": null,
             "summary": "Tin is a chemical element with the symbol Sn (for Latin:stannum) and atomic number 50. It is a main group metal in group 14 of the periodic table. Tin shows a chemical similarity to both neighboring group-14 elements, germanium and lead, and has two possible oxidation states, +2 and the slightly more stable +4.",
@@ -2847,7 +2847,7 @@
             "cpk-hex": "668080",
             "image": {
                 "title": "Tin blob",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
+                "url": "images/50_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: http://images-of-elements.com/tin.php"
             },
             "block": "p"
@@ -2868,7 +2868,7 @@
             "group": 15,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Antimony",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_051_antimony/element_051_antimony_srp_th.png",
+            "bohr_model_image": "images/51_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_051_antimony/element_051_antimony.glb",
             "spectral_img": null,
             "summary": "Antimony is a chemical element with symbol Sb (from Latin:stibium) and atomic number 51. A lustrous gray metalloid, it is found in nature mainly as the sulfide mineral stibnite (Sb2S3). Antimony compounds have been known since ancient times and were used for cosmetics; metallic antimony was also known, but it was erroneously identified as lead upon its discovery.",
@@ -2899,7 +2899,7 @@
             "cpk-hex": "9e63b5",
             "image": {
                 "title": "Antimony crystal, 2 grams, 1 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg",
+                "url": "images/51_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/antimony.php"
             },
             "block": "p"
@@ -2920,7 +2920,7 @@
             "group": 16,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Tellurium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_052_tellurium/element_052_tellurium_srp_th.png",
+            "bohr_model_image": "images/52_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_052_tellurium/element_052_tellurium.glb",
             "spectral_img": null,
             "summary": "Tellurium is a chemical element with symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, silver-white metalloid. Tellurium is chemically related to selenium and sulfur.",
@@ -2952,7 +2952,7 @@
             "cpk-hex": "d47a00",
             "image": {
                 "title": "Metallic tellurium, diameter 3.5 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tellurium2.jpg",
+                "url": "images/52_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/tellurium.php"
             },
             "block": "p"
@@ -2973,7 +2973,7 @@
             "group": 17,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Iodine",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_053_iodine/element_053_iodine_srp_th.png",
+            "bohr_model_image": "images/53_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_053_iodine/element_053_iodine.glb",
             "spectral_img": null,
             "summary": "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek ἰοειδής ioeidēs, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.",
@@ -3001,7 +3001,7 @@
             "cpk-hex": "940094",
             "image": {
                 "title": "Iodine Sample",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Iodine-sample.jpg",
+                "url": "images/53_real.jpg",
                 "attribution": "Benjah-bmm27, Public domain, via Wikimedia Commons"
             },
             "block": "p"
@@ -3022,7 +3022,7 @@
             "group": 18,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Xenon",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_054_xenon/element_054_xenon_srp_th.png",
+            "bohr_model_image": "images/54_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_054_xenon/element_054_xenon.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Xenon_Spectrum.jpg",
             "summary": "Xenon is a chemical element with symbol Xe and atomic number 54. It is a colorless, dense, odorless noble gas, that occurs in the Earth's atmosphere in trace amounts. Although generally unreactive, xenon can undergo a few chemical reactions such as the formation of xenon hexafluoroplatinate, the first noble gas compound to be synthesized.",
@@ -3050,7 +3050,7 @@
             "cpk-hex": "429eb0",
             "image": {
                 "title": "Vial of glowing ultrapure xenon. Original size in cm: 1 x 5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Xenon-glow.jpg",
+                "url": "images/54_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/xenon.php"
             },
             "block": "p"
@@ -3071,7 +3071,7 @@
             "group": 1,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Cesium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_055_cesium/element_055_cesium_srp_th.png",
+            "bohr_model_image": "images/55_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_055_cesium/element_055_cesium.glb",
             "spectral_img": null,
             "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 °C (82 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
@@ -3100,7 +3100,7 @@
             "cpk-hex": "57178f",
             "image": {
                 "title": "Cesium/Caesium metal",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cesium.jpg",
+                "url": "images/55_real.jpg",
                 "attribution": "Dnn87 Contact email: Dnn87yahoo.dk, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "s"
@@ -3121,7 +3121,7 @@
             "group": 2,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Barium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_056_barium/element_056_barium_srp_th.png",
+            "bohr_model_image": "images/56_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_056_barium/element_056_barium.glb",
             "spectral_img": null,
             "summary": "Barium is a chemical element with symbol Ba and atomic number 56. It is the fifth element in Group 2, a soft silvery metallic alkaline earth metal. Because of its high chemical reactivity barium is never found in nature as a free element.",
@@ -3150,7 +3150,7 @@
             "cpk-hex": "00c900",
             "image": {
                 "title": "1.5 Grams Barium with a Grey Oxide Layer under Argon. Original size in cm: 0.7 x 1",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Barium_%2856_Ba%29.jpg",
+                "url": "images/56_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/barium.php"
             },
             "block": "s"
@@ -3171,7 +3171,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lanthanum",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_057_lanthanum/element_057_lanthanum_srp_th.png",
+            "bohr_model_image": "images/57_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_057_lanthanum/element_057_lanthanum.glb",
             "spectral_img": null,
             "summary": "Lanthanum is a soft, ductile, silvery-white metallic chemical element with symbol La and atomic number 57. It tarnishes rapidly when exposed to air and is soft enough to be cut with a knife. It gave its name to the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table:it is also sometimes considered the first element of the 6th-period transition metals.",
@@ -3202,7 +3202,7 @@
             "cpk-hex": "70d4ff",
             "image": {
                 "title": "1 cm Big Piece of Pure Lanthanum",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Lanthanum.jpg",
+                "url": "images/57_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lanthanum.php"
             },
             "block": "f"
@@ -3223,7 +3223,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Cerium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_058_cerium/element_058_cerium_srp_th.png",
+            "bohr_model_image": "images/58_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_058_cerium/element_058_cerium.glb",
             "spectral_img": null,
             "summary": "Cerium is a chemical element with symbol Ce and atomic number 58. It is a soft, silvery, ductile metal which easily oxidizes in air. Cerium was named after the dwarf planet Ceres (itself named after the Roman goddess of agriculture).",
@@ -3255,7 +3255,7 @@
             "cpk-hex": "ffffc7",
             "image": {
                 "title": "Ultrapure Cerium under Argon, 1.5 grams. Original size in cm: 1 x 1",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cerium2.jpg",
+                "url": "images/58_real.jpg",
                 "attribution": "Jurii, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/cerium.php"
             },
             "block": "f"
@@ -3276,7 +3276,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Praseodymium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_059_praseodymium/element_059_praseodymium_srp_th.png",
+            "bohr_model_image": "images/59_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_059_praseodymium/element_059_praseodymium.glb",
             "spectral_img": null,
             "summary": "Praseodymium is a chemical element with symbol Pr and atomic number 59. Praseodymium is a soft, silvery, malleable and ductile metal in the lanthanide group. It is valued for its magnetic, electrical, chemical, and optical properties.",
@@ -3307,7 +3307,7 @@
             "cpk-hex": "d9ffc7",
             "image": {
                 "title": "1.5 Grams Praseodymium under Argon, 0.5 cm big pieces",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Praseodymium.jpg",
+                "url": "images/59_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/praseodymium.php"
             },
             "block": "f"
@@ -3328,7 +3328,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Neodymium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_060_neodymium/element_060_neodymium_srp_th.png",
+            "bohr_model_image": "images/60_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_060_neodymium/element_060_neodymium.glb",
             "spectral_img": null,
             "summary": "Neodymium is a chemical element with symbol Nd and atomic number 60. It is a soft silvery metal that tarnishes in air. Neodymium was discovered in 1885 by the Austrian chemist Carl Auer von Welsbach.",
@@ -3358,7 +3358,7 @@
             "cpk-hex": "c7ffc7",
             "image": {
                 "title": "Ultrapure Neodymium under Argon, 5 grams. Original length of the large piece in cm: 1",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Neodymium_%2860_Nd%29.jpg",
+                "url": "images/60_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/neodymium.php"
             },
             "block": "f"
@@ -3379,7 +3379,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Promethium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_061_promethium/element_061_promethium_srp_th.png",
+            "bohr_model_image": "images/61_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_061_promethium/element_061_promethium.glb",
             "spectral_img": null,
             "summary": "Promethium, originally prometheum, is a chemical element with the symbol Pm and atomic number 61. All of its isotopes are radioactive; it is one of only two such elements that are followed in the periodic table by elements with stable forms, a distinction shared with technetium. Chemically, promethium is a lanthanide, which forms salts when combined with other elements.",
@@ -3409,7 +3409,7 @@
             "cpk-hex": "a3ffc7",
             "image": {
                 "title": "Photomontage of what promethium metal might look like (it is too radioactive and real images are not available)",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Promethium.jpg",
+                "url": "images/61_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/promethium.php"
             },
             "block": "f"
@@ -3430,7 +3430,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Samarium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_062_samarium/element_062_samarium_srp_th.png",
+            "bohr_model_image": "images/62_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_062_samarium/element_062_samarium.glb",
             "spectral_img": null,
             "summary": "Samarium is a chemical element with symbol Sm and atomic number 62. It is a moderately hard silvery metal that readily oxidizes in air. Being a typical member of the lanthanide series, samarium usually assumes the oxidation state +3.",
@@ -3460,7 +3460,7 @@
             "cpk-hex": "8fffc7",
             "image": {
                 "title": "Ultrapure Sublimated Samarium, 2 grams. Original size in cm: 0.8 x 1.5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Samarium-2.jpg",
+                "url": "images/62_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/samarium.php"
             },
             "block": "f"
@@ -3481,7 +3481,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Europium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_063_europium/element_063_europium_srp_th.png",
+            "bohr_model_image": "images/63_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_063_europium/element_063_europium.glb",
             "spectral_img": null,
             "summary": "Europium is a chemical element with symbol Eu and atomic number 63. It was isolated in 1901 and is named after the continent of Europe. It is a moderately hard, silvery metal which readily oxidizes in air and water.",
@@ -3511,7 +3511,7 @@
             "cpk-hex": "61ffc7",
             "image": {
                 "title": "Weakly Oxidized Europium, hence slightly yellowish. 1.5 grams, large piece 0.6 x 1.6 cm.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Europium.jpg",
+                "url": "images/63_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/europium.php"
             },
             "block": "f"
@@ -3532,7 +3532,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Gadolinium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_064_gadolinium/element_064_gadolinium_srp_th.png",
+            "bohr_model_image": "images/64_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_064_gadolinium/element_064_gadolinium.glb",
             "spectral_img": null,
             "summary": "Gadolinium is a chemical element with symbol Gd and atomic number 64. It is a silvery-white, malleable and ductile rare-earth metal. It is found in nature only in combined (salt) form.",
@@ -3562,7 +3562,7 @@
             "cpk-hex": "45ffc7",
             "image": {
                 "title": "Pure (99.95%) Amorphous Gadolinium, about 12 grams, 2 × 1.5 × 0.5 cm, cast in acrylic glass",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Gadolinium-2.jpg",
+                "url": "images/64_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/gadolinium.php"
             },
             "block": "f"
@@ -3583,7 +3583,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Terbium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_065_terbium/element_065_terbium_srp_th.png",
+            "bohr_model_image": "images/65_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_065_terbium/element_065_terbium.glb",
             "spectral_img": null,
             "summary": "Terbium is a chemical element with symbol Tb and atomic number 65. It is a silvery-white rare earth metal that is malleable, ductile and soft enough to be cut with a knife. Terbium is never found in nature as a free element, but it is contained in many minerals, including cerite, gadolinite, monazite, xenotime and euxenite.",
@@ -3613,7 +3613,7 @@
             "cpk-hex": "30ffc7",
             "image": {
                 "title": "Pure Terbium, 3 grams. Original size: 1 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
+                "url": "images/65_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/terbium.php"
             },
             "block": "f"
@@ -3634,7 +3634,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Dysprosium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_066_dysprosium/element_066_dysprosium_srp_th.png",
+            "bohr_model_image": "images/66_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_066_dysprosium/element_066_dysprosium.glb",
             "spectral_img": null,
             "summary": "Dysprosium is a chemical element with the symbol Dy and atomic number 66. It is a rare earth element with a metallic silver luster. Dysprosium is never found in nature as a free element, though it is found in various minerals, such as xenotime.",
@@ -3664,7 +3664,7 @@
             "cpk-hex": "1fffc7",
             "image": {
                 "title": "Pure Dysprosium Dendrites",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Dysprosium-2.jpg",
+                "url": "images/66_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/dysprosium.php"
             },
             "block": "f"
@@ -3685,7 +3685,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Holmium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_067_holmium/element_067_holmium_srp_th.png",
+            "bohr_model_image": "images/67_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_067_holmium/element_067_holmium.glb",
             "spectral_img": null,
             "summary": "Holmium is a chemical element with symbol Ho and atomic number 67. Part of the lanthanide series, holmium is a rare earth element. Holmium was discovered by Swedish chemist Per Theodor Cleve.",
@@ -3715,7 +3715,7 @@
             "cpk-hex": "00ff9c",
             "image": {
                 "title": "Ultrapure Holmium, 17 grams. Original size in cm: 1.5 x 2.5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holmium2.jpg",
+                "url": "images/67_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/holmium.php"
             },
             "block": "f"
@@ -3736,7 +3736,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Erbium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_068_erbium/element_068_erbium_srp_th.png",
+            "bohr_model_image": "images/68_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_068_erbium/element_068_erbium.glb",
             "spectral_img": null,
             "summary": "Erbium is a chemical element in the lanthanide series, with symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements on Earth. As such, it is a rare earth element which is associated with several other rare elements in the mineral gadolinite from Ytterby in Sweden, where yttrium, ytterbium, and terbium were discovered.",
@@ -3766,7 +3766,7 @@
             "cpk-hex": "00e675",
             "image": {
                 "title": "9.5 Gramms Pure Erbium, 2 x 2 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Erbium-2.jpg",
+                "url": "images/68_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/erbium.php"
             },
             "block": "f"
@@ -3787,7 +3787,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Thulium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_069_thulium/element_069_thulium_srp_th.png",
+            "bohr_model_image": "images/69_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_069_thulium/element_069_thulium.glb",
             "spectral_img": null,
             "summary": "Thulium is a chemical element with symbol Tm and atomic number 69. It is the thirteenth and antepenultimate (third-last) element in the lanthanide series. Like the other lanthanides, the most common oxidation state is +3, seen in its oxide, halides and other compounds.",
@@ -3817,7 +3817,7 @@
             "cpk-hex": "00d452",
             "image": {
                 "title": "Ultrapure (99.997%) Crystalline Thulium, 22.3 grams, 3 × 3 × 2 cm in size",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Thulium-2.jpg",
+                "url": "images/69_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/thulium.php"
             },
             "block": "f"
@@ -3838,7 +3838,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Ytterbium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_070_ytterbium/element_070_ytterbium_srp_th.png",
+            "bohr_model_image": "images/70_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_070_ytterbium/element_070_ytterbium.glb",
             "spectral_img": null,
             "summary": "Ytterbium is a chemical element with symbol Yb and atomic number 70. It is the fourteenth and penultimate element in the lanthanide series, which is the basis of the relative stability of its +2 oxidation state. However, like the other lanthanides, its most common oxidation state is +3, seen in its oxide, halides and other compounds.",
@@ -3868,7 +3868,7 @@
             "cpk-hex": "00bf38",
             "image": {
                 "title": "Ytterbium, 0.5 x 1 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ytterbium-3.jpg",
+                "url": "images/70_real.jpg",
                 "attribution": "Jurii, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/ytterbium.php"
             },
             "block": "f"
@@ -3889,7 +3889,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lutetium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_071_lutetium/element_071_lutetium_srp_th.png",
+            "bohr_model_image": "images/71_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_071_lutetium/element_071_lutetium.glb",
             "spectral_img": null,
             "summary": "Lutetium is a chemical element with symbol Lu and atomic number 71. It is a silvery white metal, which resists corrosion in dry, but not in moist air. It is considered the first element of the 6th-period transition metals and the last element in the lanthanide series, and is traditionally counted among the rare earths.",
@@ -3920,7 +3920,7 @@
             "cpk-hex": "00ab24",
             "image": {
                 "title": "1 cm Big Piece of Pure Lutetium",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lutetium.jpg",
+                "url": "images/71_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lutetium.php"
             },
             "block": "d"
@@ -3941,7 +3941,7 @@
             "group": 4,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Hafnium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_072_hafnium/element_072_hafnium_srp_th.png",
+            "bohr_model_image": "images/72_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_072_hafnium/element_072_hafnium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Hafnium_spectrum_visible.png",
             "summary": "Hafnium is a chemical element with symbol Hf and atomic number 72. A lustrous, silvery gray, tetravalent transition metal, hafnium chemically resembles zirconium and is found in zirconium minerals. Its existence was predicted by Dmitri Mendeleev in 1869, though it was not identified until 1923, making it the penultimate stable element to be discovered (rhenium was identified two years later).",
@@ -3971,7 +3971,7 @@
             "cpk-hex": "4dc2ff",
             "image": {
                 "title": "Electrolytic Hafnium, 22 grams. Original size in cm: 1 x 2 x 3",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Hafnium_%2872_Hf%29.jpg",
+                "url": "images/72_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/hafnium.php"
             },
             "block": "d"
@@ -3992,7 +3992,7 @@
             "group": 5,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Tantalum",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_073_tantalum/element_073_tantalum_srp_th.png",
+            "bohr_model_image": "images/73_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_073_tantalum/element_073_tantalum.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Tantalum_spectrum_visible.png",
             "summary": "Tantalum is a chemical element with symbol Ta and atomic number 73. Previously known as tantalium, its name comes from Tantalus, an antihero from Greek mythology. Tantalum is a rare, hard, blue-gray, lustrous transition metal that is highly corrosion-resistant.",
@@ -4020,7 +4020,7 @@
             "cpk-hex": "4da6ff",
             "image": {
                 "title": "Piece of tantalum, 1 cm in size",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Tantalum.jpg",
+                "url": "images/73_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/tantalum.php"
             },
             "block": "d"
@@ -4041,7 +4041,7 @@
             "group": 6,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Tungsten",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_074_tungsten/element_074_tungsten_srp_th.png",
+            "bohr_model_image": "images/74_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_074_tungsten/element_074_tungsten.glb",
             "spectral_img": null,
             "summary": "Tungsten, also known as wolfram, is a chemical element with symbol W and atomic number 74. The word tungsten comes from the Swedish language tung sten, which directly translates to heavy stone. Its name in Swedish is volfram, however, in order to distinguish it from scheelite, which in Swedish is alternatively named tungsten.",
@@ -4069,7 +4069,7 @@
             "cpk-hex": "2194d6",
             "image": {
                 "title": "Tungsten rod with oxidised surface, 80 grams. Original size in cm: 1.3 x 3",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Tungsten_rod_with_oxidised_surface.jpg",
+                "url": "images/74_real.jpg",
                 "attribution": "Jurii, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/tungsten.php"
             },
             "block": "d"
@@ -4090,7 +4090,7 @@
             "group": 7,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Rhenium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_075_rhenium/element_075_rhenium_srp_th.png",
+            "bohr_model_image": "images/75_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_075_rhenium/element_075_rhenium.glb",
             "spectral_img": null,
             "summary": "Rhenium is a chemical element with symbol Re and atomic number 75. It is a silvery-white, heavy, third-row transition metal in group 7 of the periodic table. With an estimated average concentration of 1 part per billion (ppb), rhenium is one of the rarest elements in the Earth's crust.",
@@ -4120,7 +4120,7 @@
             "cpk-hex": "267dab",
             "image": {
                 "title": "Pure Rhenium Bead, arc melted, 21 grams. Original size in cm: 1.5 x 1.7. Measured radiation dose <0.05 μS/h.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pure_rhenium_bead%2C_arc_melted%2C_21_grams._Original_size_in_cm_-_1.5_x_1.7.jpg",
+                "url": "images/75_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/rhenium.php"
             },
             "block": "d"
@@ -4141,7 +4141,7 @@
             "group": 8,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Osmium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_076_osmium/element_076_osmium_srp_th.png",
+            "bohr_model_image": "images/76_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_076_osmium/element_076_osmium.glb",
             "spectral_img": null,
             "summary": "Osmium (from Greek osme (ὀσμή) meaning \"smell\") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.",
@@ -4169,7 +4169,7 @@
             "cpk-hex": "266696",
             "image": {
                 "title": "Pure Osmium Bead",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Osmium-bead.jpg",
+                "url": "images/76_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/osmium.php"
             },
             "block": "d"
@@ -4190,7 +4190,7 @@
             "group": 9,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Iridium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_077_iridium/element_077_iridium_srp_th.png",
+            "bohr_model_image": "images/77_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_077_iridium/element_077_iridium.glb",
             "spectral_img": null,
             "summary": "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 °C. Although only certain molten salts and halogens are corrosive to solid iridium, finely divided iridium dust is much more reactive and can be flammable.",
@@ -4218,7 +4218,7 @@
             "cpk-hex": "175487",
             "image": {
                 "title": "Pieces of Pure Iridium, 1 gram. Original size: 0.1 - 0.3 cm each",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iridium-2.jpg",
+                "url": "images/77_real.jpg",
                 "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/iridium.php"
             },
             "block": "d"
@@ -4239,7 +4239,7 @@
             "group": 10,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Platinum",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_078_platinum/element_078_platinum_srp_th.png",
+            "bohr_model_image": "images/78_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_078_platinum/element_078_platinum.glb",
             "spectral_img": null,
             "summary": "Platinum is a chemical element with symbol Pt and atomic number 78. It is a dense, malleable, ductile, highly unreactive, precious, gray-white transition metal. Its name is derived from the Spanish term platina, which is literally translated into \"little silver\".",
@@ -4267,7 +4267,7 @@
             "cpk-hex": "d0d0e0",
             "image": {
                 "title": "Crystals of Pure Platinum grown by gas phase transport",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
+                "url": "images/78_real.jpg",
                 "attribution": "Periodictableru, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
             },
             "block": "d"
@@ -4288,7 +4288,7 @@
             "group": 11,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Gold",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_079_gold/element_079_gold_srp_th.png",
+            "bohr_model_image": "images/79_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_079_gold/element_079_gold.glb",
             "spectral_img": null,
             "summary": "Gold is a chemical element with symbol Au (from Latin:aurum) and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
@@ -4316,7 +4316,7 @@
             "cpk-hex": "ffd123",
             "image": {
                 "title": "Ultrapure Gold Leaf",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gold_%2879_Au%29.jpg",
+                "url": "images/79_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/gold.php"
             },
             "block": "d"
@@ -4337,7 +4337,7 @@
             "group": 12,
             "phase": "Liquid",
             "source": "https://en.wikipedia.org/wiki/Mercury (Element)",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_080_mercury/element_080_mercury_srp_th.png",
+            "bohr_model_image": "images/80_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_080_mercury/element_080_mercury.glb",
             "spectral_img": null,
             "summary": "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum (/haɪˈdrɑːrdʒərəm/). A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
@@ -4366,7 +4366,7 @@
             "cpk-hex": "b8b8d0",
             "image": {
                 "title": "6 grams pure mercury. Diameter of the inner disc: 2 cm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hydrargyrum_%2880_Hg%29.jpg",
+                "url": "images/80_real.jpg",
                 "attribution": "Hi-Res Images of Chemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/mercury.php"
             },
             "block": "d"
@@ -4387,7 +4387,7 @@
             "group": 13,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Thallium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_081_thallium/element_081_thallium_srp_th.png",
+            "bohr_model_image": "images/81_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_081_thallium/element_081_thallium.glb",
             "spectral_img": null,
             "summary": "Thallium is a chemical element with symbol Tl and atomic number 81. This soft gray post-transition metal is not found free in nature. When isolated, it resembles tin, but discolors when exposed to air.",
@@ -4416,7 +4416,7 @@
             "cpk-hex": "a6544d",
             "image": {
                 "title": "8 grams pure thallium under argon. Original size in cm: 0.7 x 1.5",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Thallium_%2881_Tl%29.jpg",
+                "url": "images/81_real.jpg",
                 "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/thallium.php"
             },
             "block": "p"
@@ -4437,7 +4437,7 @@
             "group": 14,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lead_(element)",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_082_lead/element_082_lead_srp_th.png",
+            "bohr_model_image": "images/82_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_082_lead/element_082_lead.glb",
             "spectral_img": null,
             "summary": "Lead (/lɛd/) is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
@@ -4468,7 +4468,7 @@
             "cpk-hex": "575961",
             "image": {
                 "title": "Ultrapure Lead Bead from two sides. Original size in cm: 1.5 x 2",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lead-2.jpg",
+                "url": "images/82_real.jpg",
                 "attribution": "Chemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lead.php"
             },
             "block": "p"
@@ -4489,7 +4489,7 @@
             "group": 15,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Bismuth",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_083_bismuth/element_083_bismuth_srp_th.png",
+            "bohr_model_image": "images/83_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_083_bismuth/element_083_bismuth.glb",
             "spectral_img": null,
             "summary": "Bismuth is a chemical element with symbol Bi and atomic number 83. Bismuth, a pentavalent post-transition metal, chemically resembles arsenic and antimony. Elemental bismuth may occur naturally, although its sulfide and oxide form important commercial ores.",
@@ -4521,7 +4521,7 @@
             "cpk-hex": "9e4fb5",
             "image": {
                 "title": "Bismuth Crystal",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bismuth-2.jpg",
+                "url": "images/83_real.jpg",
                 "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/bismuth.php"
             },
             "block": "p"
@@ -4542,7 +4542,7 @@
             "group": 16,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Polonium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_084_polonium/element_084_polonium_srp_th.png",
+            "bohr_model_image": "images/84_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_084_polonium/element_084_polonium.glb",
             "spectral_img": null,
             "summary": "Polonium is a chemical element with symbol Po and atomic number 84, discovered in 1898 by Marie Curie and Pierre Curie. A rare and highly radioactive element with no stable isotopes, polonium is chemically similar to bismuth and tellurium, and it occurs in uranium ores. Applications of polonium are few.",
@@ -4569,7 +4569,7 @@
             "cpk-hex": "ab5c00",
             "image": {
                 "title": "This is only an illustration, not polonium itself. A silvery, radioactive metal, producing so much heat that it gets liquid and ionizes the surrounding air",
-                "url": "https://images-of-elements.com/polonium.jpg",
+                "url": "images/84_real.jpg",
                 "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/polonium.php"
             },
             "block": "p"
@@ -4590,7 +4590,7 @@
             "group": 17,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Astatine",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_085_astatine/element_085_astatine_srp_th.png",
+            "bohr_model_image": "images/85_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_085_astatine/element_085_astatine.glb",
             "spectral_img": null,
             "summary": "Astatine is a very rare radioactive chemical element with the chemical symbol At and atomic number 85. It occurs on Earth as the decay product of various heavier elements. All its isotopes are short-lived; the most stable is astatine-210, with a half-life of 8.1 hours.",
@@ -4617,7 +4617,7 @@
             "cpk-hex": "754f45",
             "image": {
                 "title": "This is only an illustration, not astatine itself. Crystals similar to iodine, but darker in color than these, which due to the extreme radioactivity glow blue and evaporate to dark purple gas",
-                "url": "https://images-of-elements.com/astatine.jpg",
+                "url": "images/85_real.jpg",
                 "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/astatine.php"
             },
             "block": "p"
@@ -4638,7 +4638,7 @@
             "group": 18,
             "phase": "Gas",
             "source": "https://en.wikipedia.org/wiki/Radon",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_086_radon/element_086_radon_srp_th.png",
+            "bohr_model_image": "images/86_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_086_radon/element_086_radon.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Radon_spectrum.png",
             "summary": "Radon is a chemical element with symbol Rn and atomic number 86. It is a radioactive, colorless, odorless, tasteless noble gas, occurring naturally as a decay product of radium. Its most stable isotope, 222Rn, has a half-life of 3.8 days.",
@@ -4665,7 +4665,7 @@
             "cpk-hex": "428296",
             "image": {
                 "title": "This is only an illustration, not radon itself. Radon is said to glow red in discharge tubes, although it practically is never used for this, due to its strong radioactivity.",
-                "url": "https://images-of-elements.com/radon.jpg",
+                "url": "images/86_real.jpg",
                 "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/radon.php"
             },
             "block": "p"
@@ -4686,7 +4686,7 @@
             "group": 1,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Francium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_087_francium/element_087_francium_srp_th.png",
+            "bohr_model_image": "images/87_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_087_francium/element_087_francium.glb",
             "spectral_img": null,
             "summary": "Francium is a chemical element with symbol Fr and atomic number 87. It used to be known as eka-caesium and actinium K. It is the second-least electronegative element, behind only caesium. Francium is a highly radioactive metal that decays into astatine, radium, and radon.",
@@ -4714,7 +4714,7 @@
             "cpk-hex": "420066",
             "image": {
                 "title": "This is only an illustration, not francium itself.",
-                "url": "https://images-of-elements.com/francium.jpg",
+                "url": "images/87_real.jpg",
                 "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/francium.jpg"
             },
             "block": "s"
@@ -4735,7 +4735,7 @@
             "group": 2,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Radium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_088_radium/element_088_radium_srp_th.png",
+            "bohr_model_image": "images/88_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_088_radium/element_088_radium.glb",
             "spectral_img": null,
             "summary": "Radium is a chemical element with symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals. Pure radium is almost colorless, but it readily combines with nitrogen (rather than oxygen) on exposure to air, forming a black surface layer of radium nitride (Ra3N2).",
@@ -4764,7 +4764,7 @@
             "cpk-hex": "007d00",
             "image": {
                 "title": "Radium electroplated on a very small sample of copper foil and covered with polyurethane to prevent reaction with the air",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
+                "url": "images/88_real.jpg",
                 "attribution": "grenadier, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
             },
             "block": "s"
@@ -4785,7 +4785,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Actinium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_089_actinium/element_089_actinium_srp_th.png",
+            "bohr_model_image": "images/89_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_089_actinium/element_089_actinium.glb",
             "spectral_img": null,
             "summary": "Actinium is a radioactive chemical element with symbol Ac (not to be confused with the abbreviation for an acetyl group) and atomic number 89, which was discovered in 1899. It was the first non-primordial radioactive element to be isolated. Polonium, radium and radon were observed before actinium, but they were not isolated until 1902.",
@@ -4814,7 +4814,7 @@
             "cpk-hex": "70abfa",
             "image": {
                 "title": "Actinium-225 medical radioisotope held in a v-vial at ORNL. The blue glow comes from the ionization of surrounding air by alpha particles",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
+                "url": "images/89_real.png",
                 "attribution": "Oak Ridge National Laboratory, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons, source: https://www.flickr.com/photos/oakridgelab/31481701837/"
             },
             "block": "f"
@@ -4835,7 +4835,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Thorium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_090_thorium/element_090_thorium_srp_th.png",
+            "bohr_model_image": "images/90_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_090_thorium/element_090_thorium.glb",
             "spectral_img": null,
             "summary": "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
@@ -4866,7 +4866,7 @@
             "cpk-hex": "00baff",
             "image": {
                 "title": "Thorium Metal in Ampoule, corroded",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Thorium-1.jpg",
+                "url": "images/90_real.jpg",
                 "attribution": "W. Oelen, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
             },
             "block": "f"
@@ -4887,7 +4887,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Protactinium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_091_protactinium/element_091_protactinium_srp_th.png",
+            "bohr_model_image": "images/91_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_091_protactinium/element_091_protactinium.glb",
             "spectral_img": null,
             "summary": "Protactinium is a chemical element with symbol Pa and atomic number 91. It is a dense, silvery-gray metal which readily reacts with oxygen, water vapor and inorganic acids. It forms various chemical compounds where protactinium is usually present in the oxidation state +5, but can also assume +4 and even +2 or +3 states.",
@@ -4915,7 +4915,7 @@
             "cpk-hex": "00a1ff",
             "image": {
                 "title": "This sample of Protactinium-233 (dark circular area in the photo) was photographed in the light from its own radioactive emission (the lighter area) at the National Reactor Testing Station in Idaho.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
+                "url": "images/91_real.jpg",
                 "attribution": "ENERGY.GOV, Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -4936,7 +4936,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Uranium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_092_uranium/element_092_uranium_srp_th.png",
+            "bohr_model_image": "images/92_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_092_uranium/element_092_uranium.glb",
             "spectral_img": null,
             "summary": "Uranium is a chemical element with symbol U and atomic number 92. It is a silvery-white metal in the actinide series of the periodic table. A uranium atom has 92 protons and 92 electrons, of which 6 are valence electrons.",
@@ -4965,7 +4965,7 @@
             "cpk-hex": "008fff",
             "image": {
                 "title": "A biscuit of uranium metal after reduction via the Ames Process. c.1943.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ames_Process_uranium_biscuit.jpg",
+                "url": "images/92_real.jpg",
                 "attribution": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -4986,7 +4986,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Neptunium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_093_neptunium/element_093_neptunium_srp_th.png",
+            "bohr_model_image": "images/93_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_093_neptunium/element_093_neptunium.glb",
             "spectral_img": null,
             "summary": "Neptunium is a chemical element with symbol Np and atomic number 93. A radioactive actinide metal, neptunium is the first transuranic element. Its position in the periodic table just after uranium, named after the planet Uranus, led to it being named after Neptune, the next planet beyond Uranus.",
@@ -5014,7 +5014,7 @@
             "cpk-hex": "0080ff",
             "image": {
                 "title": "Neptunium 237 sphere (6 kg)",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Neptunium2.jpg",
+                "url": "images/93_real.jpg",
                 "attribution": "Los Alamos National Laboratory,, Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -5035,7 +5035,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Plutonium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_094_plutonium/element_094_plutonium_srp_th.png",
+            "bohr_model_image": "images/94_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_094_plutonium/element_094_plutonium.glb",
             "spectral_img": null,
             "summary": "Plutonium is a transuranic radioactive chemical element with symbol Pu and atomic number 94. It is an actinide metal of silvery-gray appearance that tarnishes when exposed to air, and forms a dull coating when oxidized. The element normally exhibits six allotropes and four oxidation states.",
@@ -5063,7 +5063,7 @@
             "cpk-hex": "006bff",
             "image": {
                 "title": "Plutonium Ring",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
+                "url": "images/94_real.jpg",
                 "attribution": "Los Alamos National Laboratory, Attribution, via Wikimedia Commons"
             },
             "block": "f"
@@ -5084,7 +5084,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Americium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_095_americium/element_095_americium_srp_th.png",
+            "bohr_model_image": "images/95_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_095_americium/element_095_americium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Americium_spectrum_visible.png",
             "summary": "Americium is a radioactive transuranic chemical element with symbol Am and atomic number 95. This member of the actinide series is located in the periodic table under the lanthanide element europium, and thus by analogy was named after the Americas. Americium was first produced in 1944 by the group of Glenn T.Seaborg from Berkeley, California, at the metallurgical laboratory of University of Chicago.",
@@ -5112,7 +5112,7 @@
             "cpk-hex": "545cf2",
             "image": {
                 "title": "A small disc of Am-241 under the microscope.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
+                "url": "images/95_real.jpg",
                 "attribution": "Bionerd, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
             },
             "block": "f"
@@ -5133,7 +5133,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Curium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_096_curium/element_096_curium_srp_th.png",
+            "bohr_model_image": "images/96_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_096_curium/element_096_curium.glb",
             "spectral_img": null,
             "summary": "Curium is a transuranic radioactive chemical element with symbol Cm and atomic number 96. This element of the actinide series was named after Marie and Pierre Curie – both were known for their research on radioactivity. Curium was first intentionally produced and identified in July 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley.",
@@ -5161,7 +5161,7 @@
             "cpk-hex": "785ce3",
             "image": {
                 "title": "A piece of curium, which emitts strong radiation that makes it glow",
-                "url": "https://images-of-elements.com/s/curium-glow.jpg",
+                "url": "images/96_real.jpg",
                 "attribution": "European Union, The Actinide Group, Institute for Transuranium Elements (JRC-ITU), source: https://images-of-elements.com/curium.php"
             },
             "block": "f"
@@ -5182,7 +5182,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Berkelium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_097_berkelium/element_097_berkelium_srp_th.png",
+            "bohr_model_image": "images/97_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_097_berkelium/element_097_berkelium.glb",
             "spectral_img": null,
             "summary": "Berkelium is a transuranic radioactive chemical element with symbol Bk and atomic number 97. It is a member of the actinide and transuranium element series. It is named after the city of Berkeley, California, the location of the University of California Radiation Laboratory where it was discovered in December 1949.",
@@ -5210,7 +5210,7 @@
             "cpk-hex": "8a4fe3",
             "image": {
                 "title": "It took 250 days to make enough berkelium, shown here (in dissolved state), to synthesize element 117",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Berkelium.jpg",
+                "url": "images/97_real.jpg",
                 "attribution": "ORNL, Department of Energy, Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -5231,7 +5231,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Californium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_098_californium/element_098_californium_srp_th.png",
+            "bohr_model_image": "images/98_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_098_californium/element_098_californium.glb",
             "spectral_img": null,
             "summary": "Californium is a radioactive metallic chemical element with symbol Cf and atomic number 98. The element was first made in 1950 at the University of California Radiation Laboratory in Berkeley, by bombarding curium with alpha particles (helium-4 ions). It is an actinide element, the sixth transuranium element to be synthesized, and has the second-highest atomic mass of all the elements that have been produced in amounts large enough to see with the unaided eye (after einsteinium).",
@@ -5259,7 +5259,7 @@
             "cpk-hex": "a136d4",
             "image": {
                 "title": "A disc of californium metal (249Cf, 10 mg). The source implies that the disc has a diameter about twice the thickness of a typical pin, or on the order of 1 mm",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
+                "url": "images/98_real.jpg",
                 "attribution": "United States Department of Energy (see File:Einsteinium.jpg), Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -5280,7 +5280,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Einsteinium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_099_einsteinium/element_099_einsteinium_srp_th.png",
+            "bohr_model_image": "images/99_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_099_einsteinium/element_099_einsteinium.glb",
             "spectral_img": null,
             "summary": "Einsteinium is a synthetic element with symbol Es and atomic number 99. It is the seventh transuranic element, and an actinide. Einsteinium was discovered as a component of the debris of the first hydrogen bomb explosion in 1952, and named after Albert Einstein.",
@@ -5308,7 +5308,7 @@
             "cpk-hex": "b31fd4",
             "image": {
                 "title": "300 micrograms of Einsteinium 253, which has a half-life of 20 days.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
+                "url": "images/99_real.jpg",
                 "attribution": "Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia., Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -5329,7 +5329,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Fermium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_100_fermium/element_100_fermium_srp_th.png",
+            "bohr_model_image": "images/100_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_100_fermium/element_100_fermium.glb",
             "spectral_img": null,
             "summary": "Fermium is a synthetic element with symbol Fm and atomic number 100. It is a member of the actinide series. It is the heaviest element that can be formed by neutron bombardment of lighter elements, and hence the last element that can be prepared in macroscopic quantities, although pure fermium metal has not yet been prepared.",
@@ -5357,7 +5357,7 @@
             "cpk-hex": "b31fba",
             "image": {
                 "title": "Fermium was first observed in the fallout from the Ivy Mike nuclear test.",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ivy_Mike_-_mushroom_cloud.jpg",
+                "url": "images/100_real.jpg",
                 "attribution": "U.S. Department of Energy, Public domain, via Wikimedia Commons"
             },
             "block": "f"
@@ -5378,7 +5378,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Mendelevium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_101_mendelevium/element_101_mendelevium_srp_th.png",
+            "bohr_model_image": "images/101_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_101_mendelevium/element_101_mendelevium.glb",
             "spectral_img": null,
             "summary": "Mendelevium is a synthetic element with chemical symbol Md (formerly Mv) and atomic number 101. A metallic radioactive transuranic element in the actinide series, it is the first element that currently cannot be produced in macroscopic quantities through neutron bombardment of lighter elements. It is the antepenultimate actinide and the ninth transuranic element.",
@@ -5406,7 +5406,7 @@
             "cpk-hex": "b30da6",
             "image": {
                 "title": "This is only an illustration, not mendelevium itself. Chemically similar to Thulium, the highly radioactive heavy metal emits very energetic α-radiation.",
-                "url": "https://images-of-elements.com/s/mendelevium.jpg",
+                "url": "images/101_real.jpg",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/mendelevium.php"
             },
             "block": "f"
@@ -5427,7 +5427,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Nobelium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_102_nobelium/element_102_nobelium_srp_th.png",
+            "bohr_model_image": "images/102_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_102_nobelium/element_102_nobelium.glb",
             "spectral_img": null,
             "summary": "Nobelium is a synthetic chemical element with symbol No and atomic number 102. It is named in honor of Alfred Nobel, the inventor of dynamite and benefactor of science. A radioactive metal, it is the tenth transuranic element and is the penultimate member of the actinide series.",
@@ -5455,7 +5455,7 @@
             "cpk-hex": "bd0d87",
             "image": {
                 "title": "This is only an illustration, not nobelium itself. Nobelium can only be made in very small amounts and emits strong radiation of various kinds.",
-                "url": "https://images-of-elements.com/nobelium.jpg",
+                "url": "images/102_real.jpg",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/nobelium.php"
             },
             "block": "f"
@@ -5476,7 +5476,7 @@
             "group": 3,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Lawrencium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_103_lawrencium/element_103_lawrencium_srp_th.png",
+            "bohr_model_image": "images/103_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_103_lawrencium/element_103_lawrencium.glb",
             "spectral_img": null,
             "summary": "Lawrencium is a synthetic chemical element with chemical symbol Lr (formerly Lw) and atomic number 103. It is named in honor of Ernest Lawrence, inventor of the cyclotron, a device that was used to discover many artificial radioactive elements. A radioactive metal, lawrencium is the eleventh transuranic element and is also the final member of the actinide series.",
@@ -5504,7 +5504,7 @@
             "cpk-hex": "c70066",
             "image": {
                 "title": "This is only an illustration, not lawrencium itself. Lawrencium can only be made in very small amounts and emits strong radiation",
-                "url": "https://images-of-elements.com/lawrencium.jpg",
+                "url": "images/103_real.jpg",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/lawrencium.php"
             },
             "block": "d"
@@ -5525,7 +5525,7 @@
             "group": 4,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Rutherfordium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_104_rutherfordium/element_104_rutherfordium_srp_th.png",
+            "bohr_model_image": "images/104_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_104_rutherfordium/element_104_rutherfordium.glb",
             "spectral_img": null,
             "summary": "Rutherfordium is a chemical element with symbol Rf and atomic number 104, named in honor of physicist Ernest Rutherford. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, 267Rf, has a half-life of approximately 1.3 hours. In the periodic table of the elements, it is a d - block element and the second of the fourth - row transition elements.",
@@ -5553,7 +5553,7 @@
             "cpk-hex": "cc0059",
             "image": {
                 "title": "Decay traces in a spark chamber, not of rutherfordium, but of a pion. This is a completely different, unrelated particle, but the decay of rutherfordium would make streaks there, too.",
-                "url": "https://images-of-elements.com/s/rutherfordium.jpg",
+                "url": "images/104_real.jpg",
                 "attribution": "Image © CERN, Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/rutherfordium.php"
             },
             "block": "d"
@@ -5574,7 +5574,7 @@
             "group": 5,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Dubnium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_105_dubnium/element_105_dubnium_srp_th.png",
+            "bohr_model_image": "images/105_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_105_dubnium/element_105_dubnium.glb",
             "spectral_img": null,
             "summary": "Dubnium is a chemical element with symbol Db and atomic number 105. It is named after the town of Dubna in Russia (north of Moscow), where it was first produced. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, dubnium-268, has a half-life of approximately 28 hours.",
@@ -5600,7 +5600,7 @@
             "cpk-hex": "d1004f",
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/105_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/dubnium.php"
             },
             "block": "d"
@@ -5621,7 +5621,7 @@
             "group": 6,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Seaborgium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_106_seaborgium/element_106_seaborgium_srp_th.png",
+            "bohr_model_image": "images/106_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_106_seaborgium/element_106_seaborgium.glb",
             "spectral_img": null,
             "summary": "Seaborgium is a synthetic element with symbol Sg and atomic number 106. Its most stable isotope 271Sg has a half-life of 1.9 minutes. A more recently discovered isotope 269Sg has a potentially slightly longer half-life (ca.",
@@ -5647,7 +5647,7 @@
             "cpk-hex": "d90045",
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/106_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/seaborgium.php"
             },
             "block": "d"
@@ -5668,7 +5668,7 @@
             "group": 7,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Bohrium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_107_bohrium/element_107_bohrium_srp_th.png",
+            "bohr_model_image": "images/107_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_107_bohrium/element_107_bohrium.glb",
             "spectral_img": null,
             "summary": "Bohrium is a chemical element with symbol Bh and atomic number 107. It is named after Danish physicist Niels Bohr. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, 270Bh, has a half-life of approximately 61 seconds.",
@@ -5694,7 +5694,7 @@
             "cpk-hex": "e00038",
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/107_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/bohrium.php"
             },
             "block": "d"
@@ -5715,7 +5715,7 @@
             "group": 8,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Hassium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_108_hassium/element_108_hassium_srp_th.png",
+            "bohr_model_image": "images/108_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_108_hassium/element_108_hassium.glb",
             "spectral_img": null,
             "summary": "Hassium is a chemical element with symbol Hs and atomic number 108, named after the German state of Hesse. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, 269Hs, has a half-life of approximately 9.7 seconds, although an unconfirmed metastable state, 277mHs, may have a longer half-life of about 130 seconds. More than 100 atoms of hassium have been synthesized to date.",
@@ -5741,7 +5741,7 @@
             "cpk-hex": "e6002e",
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/108_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/hassium.php"
             },
             "block": "d"
@@ -5762,7 +5762,7 @@
             "group": 9,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Meitnerium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_109_meitnerium/element_109_meitnerium_srp_th.png",
+            "bohr_model_image": "images/109_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_109_meitnerium/element_109_meitnerium.glb",
             "spectral_img": null,
             "summary": "Meitnerium is a chemical element with symbol Mt and atomic number 109. It is an extremely radioactive synthetic element (an element not found in nature that can be created in a laboratory). The most stable known isotope, meitnerium-278, has a half-life of 7.6 seconds.",
@@ -5788,7 +5788,7 @@
             "cpk-hex": "eb0026",
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/109_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/meitnerium.php"
             },
             "block": "d"
@@ -5809,7 +5809,7 @@
             "group": 10,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Darmstadtium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium_srp_th.png",
+            "bohr_model_image": "images/110_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb",
             "spectral_img": null,
             "summary": "Darmstadtium is a chemical element with symbol Ds and atomic number 110. It is an extremely radioactive synthetic element. The most stable known isotope, darmstadtium-281, has a half-life of approximately 10 seconds.",
@@ -5835,7 +5835,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/110_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/darmstadtium.php"
             },
             "block": "d"
@@ -5856,7 +5856,7 @@
             "group": 11,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Roentgenium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_111_roentgenium/element_111_roentgenium_srp_th.png",
+            "bohr_model_image": "images/111_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_111_roentgenium/element_111_roentgenium.glb",
             "spectral_img": null,
             "summary": "Roentgenium is a chemical element with symbol Rg and atomic number 111. It is an extremely radioactive synthetic element (an element that can be created in a laboratory but is not found in nature); the most stable known isotope, roentgenium-282, has a half-life of 2.1 minutes. Roentgenium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany.",
@@ -5882,7 +5882,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/111_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/roentgenium.php"
             },
             "block": "d"
@@ -5903,7 +5903,7 @@
             "group": 12,
             "phase": "Liquid",
             "source": "https://en.wikipedia.org/wiki/Copernicium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_112_copernicium/element_112_copernicium_srp_th.png",
+            "bohr_model_image": "images/112_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_112_copernicium/element_112_copernicium.glb",
             "spectral_img": null,
             "summary": "Copernicium is a chemical element with symbol Cn and atomic number 112. It is an extremely radioactive synthetic element that can only be created in a laboratory. The most stable known isotope, copernicium-285, has a half-life of approximately 29 seconds, but it is possible that this copernicium isotope may have a nuclear isomer with a longer half-life, 8.9 min.",
@@ -5929,7 +5929,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/112_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/copernicium.php"
             },
             "block": "d"
@@ -5950,7 +5950,7 @@
             "group": 13,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Ununtrium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_113_nihonium/element_113_nihonium_srp_th.png",
+            "bohr_model_image": "images/113_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_113_nihonium/element_113_nihonium.glb",
             "spectral_img": null,
             "summary": "Nihonium is a chemical element with atomic number 113. It has a symbol Nh. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and is extremely radioactive; its most stable known isotope, nihonium-286, has a half-life of 20 seconds.",
@@ -5976,7 +5976,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/113_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/nihonium.php"
             },
             "block": "p"
@@ -5997,7 +5997,7 @@
             "group": 14,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Flerovium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium_srp_th.png",
+            "bohr_model_image": "images/114_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium.glb",
             "spectral_img": null,
             "summary": "Flerovium is a superheavy artificial chemical element with symbol Fl and atomic number 114. It is an extremely radioactive synthetic element. The element is named after the Flerov Laboratory of Nuclear Reactions of the Joint Institute for Nuclear Research in Dubna, Russia, where the element was discovered in 1998.",
@@ -6023,7 +6023,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/114_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/flerovium.php"
             },
             "block": "p"
@@ -6044,7 +6044,7 @@
             "group": 15,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Ununpentium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_115_moscovium/element_115_moscovium_srp_th.png",
+            "bohr_model_image": "images/115_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_115_moscovium/element_115_moscovium.glb",
             "spectral_img": null,
             "summary": "Moscovium is the name of a synthetic superheavy element in the periodic table that has the symbol Mc and has the atomic number 115. It is an extremely radioactive element; its most stable known isotope, moscovium-289, has a half-life of only 220 milliseconds. It is also known as eka-bismuth or simply element 115.",
@@ -6070,7 +6070,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/115_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/moscovium.php"
             },
             "block": "p"
@@ -6091,7 +6091,7 @@
             "group": 16,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Livermorium",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium_srp_th.png",
+            "bohr_model_image": "images/116_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium.glb",
             "spectral_img": null,
             "summary": "Livermorium is a synthetic superheavy element with symbol Lv and atomic number 116. It is an extremely radioactive element that has only been created in the laboratory and has not been observed in nature. The element is named after the Lawrence Livermore National Laboratory in the United States, which collaborated with the Joint Institute for Nuclear Research in Dubna, Russia to discover livermorium in 2000.",
@@ -6117,7 +6117,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/116_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/livermorium.php"
             },
             "block": "p"
@@ -6138,7 +6138,7 @@
             "group": 17,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Tennessine",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine_srp_th.png",
+            "bohr_model_image": "images/117_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine.glb",
             "spectral_img": null,
             "summary": "Tennessine is a superheavy artificial chemical element with an atomic number of 117 and a symbol of Ts. Also known as eka-astatine or element 117, it is the second-heaviest known element and penultimate element of the 7th period of the periodic table. As of 2016, fifteen tennessine atoms have been observed: six when it was first synthesized in 2010, seven in 2012, and two in 2014.",
@@ -6164,7 +6164,7 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/117_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/tenessine.php"
             },
             "block": "p"
@@ -6185,7 +6185,7 @@
             "group": 18,
             "phase": "Solid",
             "source": "https://en.wikipedia.org/wiki/Oganesson",
-            "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson_srp_th.png",
+            "bohr_model_image": "images/118_bohr.png",
             "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson.glb",
             "spectral_img": null,
             "summary": "Oganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.",
@@ -6211,58 +6211,11 @@
             "cpk-hex": null,
             "image": {
                 "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
+                "url": "images/118_real.png",
                 "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/oganesson.php"
             },
             "block": "p"
-        },
-        {
-            "name": "Ununennium",
-            "appearance": null,
-            "atomic_mass": 315,
-            "boil": 630,
-            "category": "unknown, but predicted to be an alkali metal",
-            "density": 3,
-            "discovered_by": "GSI Helmholtz Centre for Heavy Ion Research",
-            "melt": null,
-            "molar_heat": null,
-            "named_by": null,
-            "number": 119,
-            "period": 8,
-            "group": 1,
-            "phase": "Solid",
-            "source": "https://en.wikipedia.org/wiki/Ununennium",
-            "bohr_model_image":null,
-            "bohr_model_3d":null,
-            "spectral_img": null,
-            "summary": "Ununennium, also known as eka-francium or simply element 119, is the hypothetical chemical element with symbol Uue and atomic number 119. Ununennium and Uue are the temporary systematic IUPAC name and symbol respectively, until a permanent name is decided upon. In the periodic table of the elements, it is expected to be an s-block element, an alkali metal, and the first element in the eighth period.",
-            "symbol": "Uue",
-            "xpos": 1,
-            "ypos": 8,
-            "wxpos": 1,
-            "wypos": 8,
-            "shells": [
-                2,
-                8,
-                18,
-                32,
-                32,
-                18,
-                8,
-                1
-            ],
-            "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6 8s1",
-            "electron_configuration_semantic": "*[Uuo] 8s1",
-            "electron_affinity": 63.87,
-            "electronegativity_pauling": null,
-            "ionization_energies": [],
-            "cpk-hex": null,
-            "image":{
-                "title": "No Image Found",
-                "url": "https://images-of-elements.com/s/transactinoid.png",
-                "attribution": "Chemical Elements A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com"
-            },
-            "block": "s"
         }
-    ]
+    ],
+    "bohr_model_image": "images/"
 }

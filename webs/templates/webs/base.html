@@ -31,7 +31,7 @@
 
     /* NAVBAR */
         #page-wrapper {
-            position: relative;
+            position: fixed;
             width: 100%;
             min-height: 100vh;
             display: flex;
@@ -40,11 +40,11 @@
         }
 
         .navbar {
-            padding-top: 8px !important;
-            padding-bottom: 8px !important;
+            padding-top: 8px;
+            padding-bottom: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            width: 100%;
-            background-color: #631d57;
+            width: 98vw;
+            background-color: purple;
         }
 
         .navbar-brand {
@@ -69,7 +69,7 @@
 </head>
 <body>
     <div id="page-wrapper">
-        <nav class='navbar navbar-expand-lg  mb-4 border py-2 sticky-top' style='top:0; left:0; right:0;'>
+        <nav class='navbar'>
             <div class='container-fluid px-3'>
                 <div class="d-flex align-items-center justify-content-between w-100">
                     <!-- Hiển thị trên cả Mobile lẫn PC/Laptop -->

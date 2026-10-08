@@ -4,15 +4,13 @@ from django.conf import settings
 from django.shortcuts import render
 
 def index(request):
-    json_path = os.path.join(settings.BASE_DIR, 'elements.json')
+    elements_data = []
+    json_path = settings.BASE_DIR / 'webs' / 'static' / 'webs' / 'elements.json'
     
-    elements = []
-    if os.path.exists(json_path):
+    try:
         with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            # Handle whether the root of JSON is a list or a dict containing 'elements'
-            elements = data.get('elements', data) if isinstance(data, dict) else data
+            elements_data = json.load(f)
+    except Exception as e:
+        print("Error loading JSON:", e)
 
-        return render(request, 'webs/index.html', {'elements': elements})
-
-# Create your views here.
+    return render(request, 'webs/index.html', {'elements': elements_data})
