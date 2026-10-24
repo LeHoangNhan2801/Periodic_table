@@ -14,3 +14,5 @@ def index(request):
         print("Error loading JSON:", e)
 
     return render(request, 'webs/index.html', {'elements': elements_data})
+def quiz_view(request):
+    return render(request, 'webs/quiz.html')

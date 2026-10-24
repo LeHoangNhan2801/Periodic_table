@@ -17,74 +17,68 @@
 
     <style>
     /* HTML PART */
-        html {
-            scroll-behavior: smooth;
-            height: 100%;   
-        }
-
-        body {
+        html, body {
+            height: 100%;
             margin: 0;
             padding: 0;
-            min-height: 100%;
-            background-color: #fff;
+            overflow-x: hidden;
+            background-color: #0f172a; /* Sleek dark background */
+            color: #f8fafc;
+            font-family: Arial, sans-serif;
         }
 
-    /* NAVBAR */
+    /* NAVBAR & PAGE WRAPPER */
         #page-wrapper {
-            position: fixed;
+            position: relative;
             width: 100%;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            overflow-x: clip;
         }
 
         .navbar {
-            padding-top: 8px;
-            padding-bottom: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            width: 98vw;
-            background-color: purple;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 12px 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            width: 100%;
+            background-color: #1e293b; /* Modern dark navbar */
+            border-bottom: 1px solid #334155;
         }
 
         .navbar-brand {
-            font-size: clamp(1.2rem, 4vw, 1.8rem) !important;
+            font-size: clamp(1.2rem, 4vw, 1.5rem) !important;
             font-weight: 700;
             display: inline-flex;
             align-items: center;
             white-space: nowrap;
-            padding-left: 4px;
-            margin-right: 0.5rem !important;
-            transition: transform 0.3s ease;
+            margin-right: 0 !important;
+            text-decoration: none;
         }
 
         .title-web {
-            color: white;
+            color: #60a5fa; /* Vibrant blue accent */
+            letter-spacing: 0.5px;
         }
-
-        
-
     </style>
 
 </head>
 <body>
     <div id="page-wrapper">
         <nav class='navbar'>
-            <div class='container-fluid px-3'>
+            <div class='container-fluid'>
                 <div class="d-flex align-items-center justify-content-between w-100">
-                    <!-- Hiển thị trên cả Mobile lẫn PC/Laptop -->
-                    <a class='navbar-brand me-0' href="{% url 'webs:index' %}">
-                        <span class="title-web">Bảng Tuần hoàn</span>
+                    <a class='navbar-brand' href="{% url 'webs:index' %}">
+                        <span class="title-web"><i class="fa-solid fa-atom me-2"></i>Bảng Tuần hoàn</span>
                     </a>
                 </div>
             </div>
         </nav>
-        <div class="container my-4">
+        <div class="container-fluid my-4 px-4">
             {% block content %}
             {% endblock content %}
         </div>
-
     </div>
-    
 </body>
 </html>

@@ -3,23 +3,56 @@
 
 {% block content %}
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #222222;
+    /* Filter Buttons Styling */
+    .filter-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .btn-filter {
+        padding: 8px 20px;
+        border-radius: 20px;
+        border: 1px solid #475569;
+        background: #1e293b;
         color: #f8fafc;
-        padding: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .btn-filter:hover {
+        background: #334155;
+        border-color: #94a3b8;
+    }
+
+    .btn-filter.active {
+        background: #2563eb;
+        color: #ffffff;
+        border-color: #60a5fa;
+        box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+    }
+
+    /* Periodic Table Grid Container */
+    .table-scroll-container {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 30px;
     }
 
     #periodic-table {
         display: grid;
-        grid-template-columns: repeat(18, minmax(50px, 1fr));
-        grid-template-rows: repeat(10, minmax(60px, 1fr));
-        gap: 4px;
-        max-width: 1200px;
-        margin: 20px auto;
-        overflow-x: auto;
+        grid-template-columns: repeat(18, minmax(55px, 1fr));
+        grid-template-rows: repeat(10, minmax(65px, 1fr));
+        gap: 6px;
+        min-width: 1100px;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
+    /* Individual Element Tile */
     .element-tile {
         border-radius: 4px;
         padding: 4px;
@@ -40,11 +73,17 @@
         box-shadow: 0 6px 12px rgba(0,0,0,0.6);
     }
 
+    .element-tile.dimmed {
+        opacity: 0.2;
+        filter: grayscale(80%);
+        pointer-events: none;
+    }
+
     .number { font-size: 11px; opacity: 0.85; text-align: left; }
     .symbol { font-size: 18px; font-weight: bold; }
     .name { font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-    /* Category Colors matched to left layout */
+    /* Category Colors */
     .alkali-metal { background: #b8286a; color: #fff; }
     .alkaline-earth { background: #3fa13f; color: #000; }
     .transition-metal { background: #2fbc31; color: #000; }
@@ -56,7 +95,7 @@
     .actinide { background: #1f6b3b; color: #fff; }
     .unknown { background: #555555; color: #fff; }
 
-    /* Info Popup Modal Overlay & Container */
+    /* Info Popup Modal & Overlay */
     #modal-overlay {
         display: none;
         position: fixed;
@@ -80,7 +119,6 @@
         max-width: 680px;
     }
 
-    /* Modal Top Grid (Tile | Image | Structure) */
     .modal-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -98,7 +136,6 @@
         align-items: center;
         justify-content: center;
         background-color: #fafafa;
-        position: relative;
     }
 
     .modal-card.element-preview {
@@ -128,8 +165,10 @@
         text-align: center;
     }
 
-    /* Modal Bottom Meta Details */
-    .modal-meta {
+    .modal-meta-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
         font-size: 14px;
         line-height: 1.6;
         color: #333333;
@@ -141,138 +180,130 @@
         font-size: 12px;
         margin-top: 16px;
     }
+
+    .heading {
+        font-weight: 700;
+        color: #f87171; /* Softer, modern red for dark theme */
+        line-height: 1.3;
+        text-align: center;
+    }
 </style>
-</head>
-<body>
 
-    <h1 class="heading" style="text-align: center; margin-top:10px">Bảng hệ thống tuần hoàn các nguyên tố hoá học</h1>
-    <h1 class="heading" style="text-align: center;">Theo chương trình giáo dục mới</h1>
-    <div class="filter-buttons">
-        <button class="btn active" data-category="all">All</button>
-        <button class="btn" data-category="metal">Metals</button>
-        <button class="btn" data-category="nonmetal">Nonmetals</button>
-        <button class="btn" data-category="noble">Noble Gases</button>
-    </div>
-    
+<div style="margin-top: 20px; margin-bottom: 30px;">
+    <h1 class="heading" style="font-size: clamp(1.5rem, 3vw, 2.2rem);">Bảng hệ thống tuần hoàn các nguyên tố hoá học</h1>
+    <h1 class="heading" style="font-size: clamp(1.2rem, 2.5vw, 1.8rem); margin-top: 5px;">Theo chương trình giáo dục mới</h1>
+</div>
+
+<div class="filter-buttons">
+    <button class="btn-filter active" data-category="all">Tất cả</button>
+    <button class="btn-filter" data-category="metal">Kim loại</button>
+    <button class="btn-filter" data-category="nonmetal">Phi kim</button>
+    <button class="btn-filter" data-category="noble">Khí hiếm</button>
+</div>
+
+<div style="text-align: center; margin-bottom: 25px; display: flex; justify-content: center; gap: 15px;">
+    <a href="{% url 'webs:quiz' %}" class="btn-filter" style="background: #2563eb; border-color: #60a5fa; text-decoration: none; display: inline-block;">
+        <i class="fa-solid fa-puzzle-piece me-2"></i>Luyện tập câu hỏi
+    </a>
+    <a href="{% url 'webs:quiz' %}?mode=daily" class="btn-filter" style="background: #10b981; border-color: #34d399; text-decoration: none; display: inline-block;">
+        <i class="fa-solid fa-calendar-day me-2"></i>Thử Thách Hàng Ngày
+    </a>
+</div>
+
+<div class="table-scroll-container">
     <div id="periodic-table"></div>
-    
+</div>
 
-    <div id="modal-overlay" onclick="closeModal()"></div>
-
-    <div id="detail-modal">
-        <div class="modal-grid">
-            <!-- 1. Large Element Tile -->
-            <div id="modal-tile-card" class="modal-card element-preview">
-                <span id="modal-number" class="number"></span>
-                <span id="modal-symbol" class="symbol"></span>
-                <div style="width: 100%; text-align: center;">
-                    <div id="modal-name-text" style="font-weight: bold; font-size: 14px;"></div>
-                    <div id="modal-mass-text" style="font-size: 11px;"></div>
-                </div>
-            </div>
-
-            <!-- 2. Appearance Image -->
-            <div>
-                <div class="modal-card">
-                    <img id="modal-img-appearance" src="" alt="Appearance">
-                </div>
-                <div class="card-label">Appearance</div>
-            </div>
-
-            <!-- 3. Electron Structure Model -->
-            <div>
-                <div class="modal-card">
-                    <img id="modal-img-bohr" src="" alt="Electron Structure">
-                </div>
-                <div class="card-label">Electron Structure</div>
+<div id="modal-overlay" onclick="closeModal()"></div>
+<div id="detail-modal">
+    <div class="modal-grid">
+        <div id="modal-tile-card" class="modal-card element-preview">
+            <span id="modal-number" class="number"></span>
+            <span id="modal-symbol" class="symbol"></span>
+            <div style="width: 100%; text-align: center;">
+                <div id="modal-name-text" style="font-weight: bold; font-size: 14px;"></div>
+                <div id="modal-mass-text" style="font-size: 11px;"></div>
             </div>
         </div>
 
-        <!-- Details Section -->
-        <div class="modal-meta">
-            <div><strong>Category:</strong> <span id="modal-category"></span></div>
-            <div><strong>Phase:</strong> <span id="modal-phase"></span></div>
-            <div><strong>Electron Config:</strong> <span id="modal-config"></span></div>
-            <div><strong>Discovered by:</strong> <span id="modal-discovered"></span></div>
+        <div>
+            <div class="modal-card">
+                <img id="modal-img-appearance" src="" alt="Appearance">
+            </div>
+            <div class="card-label">Appearance</div>
         </div>
 
-        <div class="click-close-hint">Click anywhere to close</div>
+        <div>
+            <div class="modal-card">
+                <img id="modal-img-bohr" src="" alt="Electron Structure">
+            </div>
+            <div class="card-label">Electron Structure</div>
+        </div>
     </div>
-        
 
-    <script>
-        // Load elements from JSON and place them on CSS Grid
-        const staticImagesUrl = "{% static 'webs/images/' %}";
-        fetch("{% static 'webs/elements.json' %}")
-            .then(response => response.json())
-            .then(data => {
-                const tableContainer = document.getElementById('periodic-table');
-                const elements = data.elements || data; // Handles array or { elements: [...] }
+    <div class="modal-meta-grid">
+        <div>
+            <div><strong>Số hiệu nguyên tử:</strong> <span id="modal-number-text"></span></div>
+            <div><strong>Kí hiệu:</strong> <span id="modal-symbol-text"></span></div>
+            <div><strong>Tên:</strong> <span id="modal-name-val"></span></div>
+            <div><strong>Khối lượng nguyên tử:</strong> <span id="modal-mass-val"></span></div>
+        </div>
+        <div>
+            <div><strong>Loại:</strong> <span id="modal-category"></span></div>
+            <div><strong>Trạng thái:</strong> <span id="modal-phase"></span></div>
+            <div><strong>Cấu trúc electron:</strong> <span id="modal-config"></span></div>
+            <div><strong>Khám phá bởi:</strong> <span id="modal-discovered"></span></div>
+        </div>
+    </div>
 
-                elements.forEach(el => {
-                    const tile = document.createElement('div');
-                    
+    <div class="click-close-hint">Click anywhere to close</div>
+</div>
 
-                    tile.className = `element-tile ${categoryToClass(el.category)}`;
-                    
-                   
-                    tile.style.gridColumn = el.xpos;
-                    tile.style.gridRow = el.ypos;
+<script>
+    const staticImagesUrl = "{% static 'webs/images/' %}";
 
-                    tile.innerHTML = `
-                        <span class="number">${el.number}</span>
-                        <span class="symbol">${el.symbol}</span>
-                        <span class="name">${el.name}</span>
-                    `;
+    fetch("{% static 'webs/elements.json' %}")
+        .then(response => response.json())
+        .then(data => {
+            const tableContainer = document.getElementById('periodic-table');
+            const elements = data.elements || data;
 
-                    tile.onclick = () => showDetails(el);
-                    tableContainer.appendChild(tile);
-                });
-                setupFilterButtons();
-            })
-            .catch(err => console.error("Error loading JSON:", err));
+            elements.forEach(el => {
+                const tile = document.createElement('div');
+                tile.className = `element-tile ${categoryToClass(el.category)}`;
+                tile.style.gridColumn = el.xpos;
+                tile.style.gridRow = el.ypos;
+                tile.setAttribute('data-category', getFilterGroup(el.category));
 
-        function categoryToClass(cat) {
-            if (!cat) return 'unknown';
-            cat = cat.toLowerCase();
-            if (cat.includes('alkali metal')) return 'alkali-metal';
-            if (cat.includes('alkaline earth')) return 'alkaline-earth';
-            if (cat.includes('transition metal')) return 'transition-metal';
-            if (cat.includes('post-transition')) return 'post-transition';
-            if (cat.includes('metalloid')) return 'metalloid';
-            if (cat.includes('diatomic nonmetal') || cat.includes('polyatomic nonmetal')) return 'nonmetal';
-            if (cat.includes('noble gas')) return 'noble-gas';
-            if (cat.includes('lanthanide')) return 'lanthanide';
-            if (cat.includes('actinide')) return 'actinide';
-            return 'unknown';
-        }
-        function setupFilterButtons() {
-        const buttons = document.querySelectorAll('.btn');
-        const tiles = document.querySelectorAll('.element-tile');
+                tile.innerHTML = `
+                    <span class="number">${el.number}</span>
+                    <span class="symbol">${el.symbol}</span>
+                    <span class="name">${el.name}</span>
+                `;
 
-        buttons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Update active button state
-                buttons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-
-                const selectedCategory = button.getAttribute('data-category');
-
-                // Dim elements that do not match
-                tiles.forEach(tile => {
-                    const tileCategory = tile.getAttribute('data-category');
-
-                    if (selectedCategory === 'all' || tileCategory === selectedCategory) {
-                        tile.classList.remove('dimmed');
-                    } else {
-                        tile.classList.add('dimmed');
-                    }
-                });
+                tile.onclick = () => showDetails(el);
+                tableContainer.appendChild(tile);
             });
-        });
+            setupFilterButtons();
+        })
+        .catch(err => console.error("Error loading JSON:", err));
+
+    function categoryToClass(cat) {
+        if (!cat) return 'unknown';
+        cat = cat.toLowerCase();
+        if (cat.includes('alkali metal')) return 'alkali-metal';
+        if (cat.includes('alkaline earth')) return 'alkaline-earth';
+        if (cat.includes('transition metal')) return 'transition-metal';
+        if (cat.includes('post-transition')) return 'post-transition';
+        if (cat.includes('metalloid')) return 'metalloid';
+        if (cat.includes('diatomic nonmetal') || cat.includes('polyatomic nonmetal')) return 'nonmetal';
+        if (cat.includes('noble gas')) return 'noble-gas';
+        if (cat.includes('lanthanide')) return 'lanthanide';
+        if (cat.includes('actinide')) return 'actinide';
+        return 'unknown';
     }
 
-        function getFilterGroup(cat) {
+    function getFilterGroup(cat) {
         if (!cat) return 'unknown';
         cat = cat.toLowerCase();
         if (cat.includes('noble gas') || cat.includes('noble')) return 'noble';
@@ -285,88 +316,107 @@
             cat.includes('lanthanide') || 
             cat.includes('actinide')
         ) return 'metal';
-        
         return 'unknown';
     }
 
-        function showDetails(el) {
-           // 1. Fill tile metadata
-            document.getElementById('modal-number').innerText = el.number;
-            document.getElementById('modal-symbol').innerText = el.symbol;
-            document.getElementById('modal-name-text').innerText = el.name;
-            document.getElementById('modal-mass-text').innerText = `${el.atomic_mass} u`;
+    function translateCategory(cat) {
+        if (!cat) return 'Không rõ';
+        cat = cat.toLowerCase();
+        if (cat.includes('transition metal')) return 'Kim loại chuyển tiếp';
+        if (cat.includes('alkali metal')) return 'Kim loại kiềm';
+        if (cat.includes('alkaline earth')) return 'Kim loại kiềm thổ';
+        if (cat.includes('post-transition')) return 'Kim loại hậu chuyển tiếp';
+        if (cat.includes('metalloid')) return 'Á kim';
+        if (cat.includes('nonmetal')) return 'Phi kim';
+        if (cat.includes('noble gas')) return 'Khí hiếm';
+        if (cat.includes('lanthanide')) return 'Lanthanide';
+        if (cat.includes('actinide')) return 'Actinide';
+        return cat;
+    }
 
-            const tileCard = document.getElementById('modal-tile-card');
-            tileCard.className = `modal-card element-preview ${categoryToClass(el.category)}`;
+    function translatePhase(phase) {
+        if (!phase) return 'Không rõ';
+        phase = phase.toLowerCase();
+        if (phase === 'solid') return 'Thể rắn';
+        if (phase === 'liquid') return 'Thể lỏng';
+        if (phase === 'gas') return 'Thể khí';
+        return phase;
+    }
 
-            const appearanceImg = document.getElementById('modal-img-appearance');
-            const bohrImg = document.getElementById('modal-img-bohr');
-
-            const basePath = `${staticImagesUrl}${el.number}`;
-
-            // Reset visibility
-            appearanceImg.style.display = 'block';
-            bohrImg.style.display = 'block';
-
-            // Real / Appearance images are mostly .jpg (fallback to .png if .jpg fails, e.g. Carbon 6)
-            appearanceImg.onerror = function() {
-                if (this.src.endsWith('.jpg')) {
-                    this.src = `${basePath}_real.png`;
-                } else {
-                    this.style.display = 'none';
-                }
-            };
-            appearanceImg.src = `${basePath}_real.jpg`;
-
-            // Bohr model images are .png (fallback to .jpg if any exist)
-            bohrImg.onerror = function() {
-                if (this.src.endsWith('.png')) {
-                    this.src = `${basePath}_bohr.jpg`;
-                } else {
-                    this.style.display = 'none';
-                }
-            };
-            bohrImg.src = `${basePath}_bohr.png`;
-
-            // Populate modal text details
-            document.getElementById('modal-category').innerText = el.category || 'N/A';
-            document.getElementById('modal-phase').innerText = el.phase || 'N/A';
-            document.getElementById('modal-config').innerText = el.electron_configuration_semantic || el.electron_configuration || 'N/A';
-            document.getElementById('modal-discovered').innerText = el.discovered_by || 'Unknown';
-
-            // Show modal
-            document.getElementById('detail-modal').style.display = 'block';
-            document.getElementById('modal-overlay').style.display = 'block';
-        }
-
-        function closeModal() {
-            document.getElementById('detail-modal').style.display = 'none';
-            document.getElementById('modal-overlay').style.display = 'none';
-        }
-
-        const buttons = document.querySelectorAll('.btn');
-        const elements = document.querySelectorAll('.element-tile');
+    function setupFilterButtons() {
+        const buttons = document.querySelectorAll('.btn-filter');
+        const tiles = document.querySelectorAll('.element-tile');
 
         buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            // 1. Update button styling
-            buttons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
 
-            const selectedCategory = button.getAttribute('data-category');
+                const selectedCategory = button.getAttribute('data-category');
 
-            // 2. Dim elements that don't match
-            elements.forEach(tile => {
-            const tileCategory = tile.getAttribute('data-category');
-
-            if (selectedCategory === 'all' || tileCategory === selectedCategory) {
-                tile.classList.remove('dimmed');
-            } else {
-                tile.classList.add('dimmed');
-            }
+                tiles.forEach(tile => {
+                    const tileCategory = tile.getAttribute('data-category');
+                    if (selectedCategory === 'all' || tileCategory === selectedCategory) {
+                        tile.classList.remove('dimmed');
+                    } else {
+                        tile.classList.add('dimmed');
+                    }
+                });
             });
         });
-        });
-        
-    </script>
+    }
+
+    function showDetails(el) {
+        document.getElementById('modal-number').innerText = el.number;
+        document.getElementById('modal-symbol').innerText = el.symbol;
+        document.getElementById('modal-name-text').innerText = el.name;
+        document.getElementById('modal-mass-text').innerText = `${el.atomic_mass} amu`;
+
+        document.getElementById('modal-number-text').innerText = el.number;
+        document.getElementById('modal-symbol-text').innerText = el.symbol;
+        document.getElementById('modal-name-val').innerText = el.name;
+        document.getElementById('modal-mass-val').innerText = `${el.atomic_mass} amu`;
+
+        const tileCard = document.getElementById('modal-tile-card');
+        tileCard.className = `modal-card element-preview ${categoryToClass(el.category)}`;
+
+        const appearanceImg = document.getElementById('modal-img-appearance');
+        const bohrImg = document.getElementById('modal-img-bohr');
+        const basePath = `${staticImagesUrl}${el.number}`;
+
+        appearanceImg.style.display = 'block';
+        bohrImg.style.display = 'block';
+
+        appearanceImg.onerror = function() {
+            if (this.src.endsWith('.jpg')) {
+                this.src = `${basePath}_real.png`;
+            } else {
+                this.style.display = 'none';
+            }
+        };
+        appearanceImg.src = `${basePath}_real.jpg`;
+
+        bohrImg.onerror = function() {
+            if (this.src.endsWith('.png')) {
+                this.src = `${basePath}_bohr.jpg`;
+            } else {
+                this.style.display = 'none';
+            }
+        };
+        bohrImg.src = `${basePath}_bohr.png`;
+
+        document.getElementById('modal-category').innerText = translateCategory(el.category);
+        document.getElementById('modal-phase').innerText = translatePhase(el.phase);
+        document.getElementById('modal-config').innerText = el.electron_configuration_semantic || el.electron_configuration || 'N/A';
+        document.getElementById('modal-discovered').innerText = el.discovered_by || 'Không rõ';
+
+        document.getElementById('detail-modal').style.display = 'block';
+        document.getElementById('modal-overlay').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('detail-modal').style.display = 'none';
+        document.getElementById('modal-overlay').style.display = 'none';
+    }
+</script>
 {% endblock content %}
