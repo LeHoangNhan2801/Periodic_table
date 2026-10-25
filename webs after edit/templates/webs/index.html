@@ -1,0 +1,230 @@
+{% extends "webs/base.html" %}
+{% load static %}
+{% block title %}Bảng tuần hoàn 118 nguyên tố | Nguyên Tố{% endblock %}
+{% block extra_head %}
+<style>
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center;margin:8px 0 28px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #2b4b5c;border-radius:999px;background:#102638;color:#8debd6;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.hero h1{font-size:clamp(2rem,4.4vw,3.8rem);line-height:1.08;letter-spacing:-.06em;font-weight:800;margin:16px 0}
+.hero h1 span{color:var(--accent)}.hero p{color:var(--muted);max-width:650px;line-height:1.8;margin:0}
+.hero-art{justify-self:end;display:grid;place-items:center;width:170px;height:170px;border:1px solid #29485a;border-radius:42px;transform:rotate(8deg);background:linear-gradient(145deg,#142b40,#0b1728);box-shadow:0 20px 70px #0005}
+.hero-art i{font-size:5rem;color:var(--accent);transform:rotate(-8deg);filter:drop-shadow(0 0 20px #66e3c455)}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.stat{padding:10px 14px;border:1px solid var(--line);background:#0d1a2b;border-radius:13px;color:var(--muted);font-size:.82rem}.stat strong{color:var(--text);font-size:1rem;margin-right:5px}
+.tools-panel{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:24px 0 14px}
+.search-wrap{position:relative;flex:1;min-width:240px;max-width:500px}.search-wrap i{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#8296b0}
+#element-search{width:100%;padding:13px 16px 13px 44px;border-radius:14px;background:#101d30;border:1px solid #2b3c53;color:var(--text);outline:none;transition:.2s}
+#element-search:focus{border-color:var(--accent);box-shadow:0 0 0 3px #66e3c41a}#element-search::placeholder{color:#7387a2}
+.filters{display:flex;gap:8px;flex-wrap:wrap}.filter-btn,.action-link{border:1px solid #2b3c53;background:#101d30;color:#c5d2e4;padding:10px 14px;border-radius:12px;font-size:.84rem;font-weight:600;text-decoration:none;transition:.2s;cursor:pointer}
+.filter-btn:hover,.action-link:hover{border-color:#66e3c4;color:#fff;transform:translateY(-1px)}.filter-btn.active{background:#173c3d;border-color:#66e3c4;color:#9af4de}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin:15px 0 22px}.action-link.primary{background:#66e3c4;color:#08111f;border-color:#66e3c4}.action-link.daily{background:#172b47;border-color:#35557d}
+.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:.75rem;margin:0 0 14px}.legend span{display:inline-flex;align-items:center;gap:6px}.dot{width:9px;height:9px;border-radius:3px;display:inline-block}
+.table-frame{border:1px solid #26364c;background:rgba(9,19,33,.82);border-radius:20px;padding:16px;box-shadow:0 24px 70px #0002}
+.table-scroll{overflow-x:auto;padding:3px 3px 16px;scrollbar-color:#38516d #0c1726;scrollbar-width:thin}
+#periodic-table{display:grid;grid-template-columns:repeat(18,minmax(61px,1fr));grid-template-rows:repeat(10,78px);gap:6px;min-width:1190px}
+.element-tile{position:relative;min-width:0;border:1px solid #ffffff25;border-radius:10px;padding:7px 6px;display:flex;flex-direction:column;justify-content:space-between;text-align:left;color:#07111e;cursor:pointer;transition:transform .16s,box-shadow .16s,filter .16s;overflow:hidden}
+.element-tile:hover,.element-tile:focus-visible{transform:translateY(-3px) scale(1.035);z-index:3;box-shadow:0 8px 20px #0007;outline:2px solid #fff9;outline-offset:1px}
+.element-tile[hidden]{display:none}.number{font-size:.66rem;font-weight:600;opacity:.8}.symbol{font-size:1.3rem;font-weight:800;line-height:1.1;align-self:center}.name{font-size:.61rem;font-weight:600;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%}
+.alkali-metal{background:#ff829e}.alkaline-earth{background:#ffc078}.transition-metal{background:#f4d66e}.post-transition{background:#9edb8a}.metalloid{background:#7ddac8}.nonmetal{background:#80c8ff}.noble-gas{background:#c3adff}.lanthanide{background:#f5a7df}.actinide{background:#ef9b91}.unknown{background:#9aa9bc}
+.table-note{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.78rem;margin-top:12px}
+#empty-state{display:none;text-align:center;padding:35px;color:var(--muted)}
+#modal-overlay{display:none;position:fixed;inset:0;background:#030914c9;backdrop-filter:blur(5px);z-index:100}
+#detail-modal{display:none;position:fixed;z-index:101;top:50%;left:50%;transform:translate(-50%,-50%);width:min(760px,calc(100vw - 28px));max-height:88vh;overflow:auto;background:#f5f8fc;color:#172235;border-radius:22px;padding:24px;box-shadow:0 25px 100px #0009}
+.modal-top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:18px}.modal-top h2{font-size:1.25rem;font-weight:800;margin:0}.close-modal{width:36px;height:36px;border:0;border-radius:10px;background:#e3eaf2;color:#23334b;font-size:1.1rem}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:18px}.modal-card{border:1px solid #dce4ee;border-radius:15px;min-height:130px;padding:12px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}.modal-card.element-preview{flex-direction:column;align-items:stretch;justify-content:space-between;color:#07111e;border:0}.modal-card.element-preview .symbol{font-size:2.5rem}.modal-card img{width:100%;height:110px;object-fit:contain}.card-label{text-align:center;font-size:.72rem;font-weight:700;color:#64748b;margin-top:7px}.modal-meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.meta-item{background:#fff;border:1px solid #dce4ee;padding:11px 13px;border-radius:11px;font-size:.82rem;overflow-wrap:anywhere}.meta-item strong{display:block;font-size:.7rem;color:#718096;margin-bottom:4px}.summary{color:#516176;line-height:1.7;font-size:.85rem;margin-top:14px}.modal-hint{text-align:center;color:#8290a2;font-size:.72rem;margin:14px 0 0}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero-art{display:none}.hero h1{font-size:2.45rem}.tools-panel{align-items:stretch}.search-wrap{max-width:none}.table-frame{padding:10px;border-radius:15px}.modal-grid{grid-template-columns:1fr 1fr 1fr;gap:7px}.modal-card{min-height:100px;padding:7px}.modal-card img{height:82px}.modal-meta-grid{gap:7px}.meta-item{padding:9px;font-size:.76rem}#detail-modal{padding:16px;border-radius:17px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+{% endblock %}
+{% block content %}
+<section class="hero">
+ <div>
+  <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> Chemistry explorer</span>
+  <h1>Khám phá thế giới<br><span>nguyên tố hóa học.</span></h1>
+  <p>118 nguyên tố, vô vàn điều kỳ thú. Tìm kiếm, phân loại và nhấn vào từng nguyên tố để khám phá những thông tin quan trọng.</p>
+  <div class="stats"><div class="stat"><strong>118</strong> nguyên tố</div><div class="stat"><strong>18</strong> nhóm</div><div class="stat"><strong>7</strong> chu kỳ</div></div>
+ </div>
+ <div class="hero-art" aria-hidden="true"><i class="fa-solid fa-atom"></i></div>
+</section>
+<div class="tools-panel">
+ <label class="search-wrap"><i class="fa-solid fa-magnifying-glass"></i><input id="element-search" type="search" placeholder="Tìm tên, ký hiệu hoặc số hiệu nguyên tử..." autocomplete="off" aria-label="Tìm nguyên tố"></label>
+ <div class="filters" role="group" aria-label="Lọc nguyên tố">
+  <button class="filter-btn active" data-category="all" type="button">Tất cả</button>
+  <button class="filter-btn" data-category="metal" type="button">Kim loại</button>
+  <button class="filter-btn" data-category="metalloid" type="button">Á kim</button>
+  <button class="filter-btn" data-category="nonmetal" type="button">Phi kim</button>
+  <button class="filter-btn" data-category="noble" type="button">Khí hiếm</button>
+ </div>
+</div>
+<div class="actions">
+ <a href="{% url 'webs:quiz' %}" class="action-link primary"><i class="fa-solid fa-brain me-2"></i>Luyện tập kiến thức</a>
+ <a href="{% url 'webs:quiz' %}?mode=daily" class="action-link daily"><i class="fa-solid fa-calendar-check me-2"></i>Thử thách hằng ngày</a>
+</div>
+<div class="legend" aria-label="Chú giải màu">
+ <span><i class="dot" style="background:#ff829e"></i>Kim loại kiềm</span><span><i class="dot" style="background:#ffc078"></i>Kim loại kiềm thổ</span><span><i class="dot" style="background:#f4d66e"></i>Kim loại chuyển tiếp</span><span><i class="dot" style="background:#7ddac8"></i>Á kim</span><span><i class="dot" style="background:#80c8ff"></i>Phi kim</span><span><i class="dot" style="background:#c3adff"></i>Khí hiếm</span><span><i class="dot" style="background:#f5a7df"></i>Họ Lanthanide / Actinide</span>
+</div>
+<section class="table-frame" aria-label="Bảng tuần hoàn các nguyên tố">
+ <div class="table-scroll"><div id="periodic-table" aria-live="polite"></div></div>
+ <div id="empty-state"><i class="fa-solid fa-magnifying-glass mb-2" style="font-size:1.6rem"></i><div>Không tìm thấy nguyên tố phù hợp.</div><small>Thử tên hoặc ký hiệu khác nhé.</small></div>
+ <div class="table-note"><span><i class="fa-regular fa-hand-pointer me-1"></i> Chọn một ô để xem thông tin chi tiết.</span><span id="result-count">Đang tải dữ liệu nguyên tố…</span></div>
+</section>
+<div id="modal-overlay" aria-hidden="true"></div>
+<section id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+ <div class="modal-top"><h2 id="modal-title">Thông tin nguyên tố</h2><button class="close-modal" type="button" id="close-modal" aria-label="Đóng"><i class="fa-solid fa-xmark"></i></button></div>
+ <div class="modal-grid">
+  <div id="modal-tile-card" class="modal-card element-preview"><span class="number" id="modal-number"></span><span class="symbol" id="modal-symbol"></span><strong id="modal-name-text"></strong><small id="modal-mass-text"></small></div>
+  <div><div class="modal-card"><img id="modal-img-appearance" alt="Hình ảnh nguyên tố"></div><div class="card-label">HÌNH ẢNH NGUYÊN TỐ</div></div>
+  <div><div class="modal-card"><img id="modal-img-bohr" alt="Mô hình electron"></div><div class="card-label">MÔ HÌNH BOHR</div></div>
+ </div>
+ <div class="modal-meta-grid">
+  <div class="meta-item"><strong>SỐ HIỆU NGUYÊN TỬ</strong><span id="modal-number-text"></span></div>
+  <div class="meta-item"><strong>KÝ HIỆU</strong><span id="modal-symbol-text"></span></div>
+  <div class="meta-item"><strong>TÊN NGUYÊN TỐ</strong><span id="modal-name-val"></span></div>
+  <div class="meta-item"><strong>KHỐI LƯỢNG NGUYÊN TỬ</strong><span id="modal-mass-val"></span></div>
+  <div class="meta-item"><strong>PHÂN LOẠI</strong><span id="modal-category"></span></div>
+  <div class="meta-item"><strong>TRẠNG THÁI</strong><span id="modal-phase"></span></div>
+  <div class="meta-item"><strong>CẤU HÌNH ELECTRON</strong><span id="modal-config"></span></div>
+  <div class="meta-item"><strong>NHÀ KHÁM PHÁ</strong><span id="modal-discovered"></span></div>
+ </div>
+ <p id="modal-summary" class="summary"></p><p class="modal-hint">Nhấn nút × hoặc phím Esc để đóng cửa sổ.</p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+(() => {
+ const dataUrl = "{% static 'webs/elements.json' %}";
+ const imageUrl = "{% static 'webs/images/' %}";
+ const table = document.getElementById('periodic-table');
+ const search = document.getElementById('element-search');
+ const count = document.getElementById('result-count');
+ const empty = document.getElementById('empty-state');
+ const modal = document.getElementById('detail-modal');
+ const overlay = document.getElementById('modal-overlay');
+ let elements = [];
+ let activeCategory = 'all';
+ const $ = id => document.getElementById(id);
+ const clean = value => String(value ?? '').toLocaleLowerCase('vi').normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+ function categoryClass(category) {
+   const c = clean(category);
+   if (c.includes('alkali metal') || c.includes('kim loai kiem')) return 'alkali-metal';
+   if (c.includes('alkaline earth') || c.includes('kiem tho')) return 'alkaline-earth';
+   if (c.includes('transition metal') || c.includes('kim loai chuyen tiep')) return 'transition-metal';
+   if (c.includes('post-transition') || c.includes('hau chuyen tiep')) return 'post-transition';
+   if (c.includes('metalloid') || c.includes('a kim')) return 'metalloid';
+   if (c.includes('noble gas') || c.includes('khi hiem')) return 'noble-gas';
+   if (c.includes('halogen')) return 'nonmetal';
+   if (c.includes('lanthanide')) return 'lanthanide';
+   if (c.includes('actinide')) return 'actinide';
+   if (c.includes('nonmetal') || c.includes('phi kim')) return 'nonmetal';
+   if (c.includes('metal') || c.includes('kim loai')) return 'transition-metal';
+   return 'unknown';
+ }
+ function groupOf(el) {
+   const cls = categoryClass(el.category);
+   if (cls === 'noble-gas') return 'noble';
+   if (cls === 'nonmetal') return 'nonmetal';
+   if (cls === 'metalloid') return 'metalloid';
+   if (['alkali-metal','alkaline-earth','transition-metal','post-transition','lanthanide','actinide'].includes(cls)) return 'metal';
+   return 'unknown';
+ }
+ function translateCategory(category) {
+   const c = clean(category);
+   if (c.includes('alkali')) return 'Kim loại kiềm';
+   if (c.includes('alkaline earth')) return 'Kim loại kiềm thổ';
+   if (c.includes('transition metal')) return 'Kim loại chuyển tiếp';
+   if (c.includes('post-transition')) return 'Kim loại hậu chuyển tiếp';
+   if (c.includes('metalloid') || c.includes('a kim')) return 'Á kim';
+   if (c.includes('noble gas') || c.includes('khi hiem')) return 'Khí hiếm';
+   if (c.includes('lanthanide')) return 'Họ Lanthanide';
+   if (c.includes('actinide')) return 'Họ Actinide';
+   if (c.includes('nonmetal') || c.includes('phi kim')) return 'Phi kim';
+   if (c.includes('metal') || c.includes('kim loai')) return 'Kim loại';
+   return category || 'Chưa phân loại';
+ }
+ function translatePhase(phase) {
+   const p = clean(phase);
+   if (p === 'solid' || p === 'the ran') return 'Thể rắn';
+   if (p === 'liquid' || p === 'the long') return 'Thể lỏng';
+   if (p === 'gas' || p === 'the khi') return 'Thể khí';
+   return phase || 'Chưa rõ';
+ }
+ function makeTile(el) {
+   const tile = document.createElement('button');
+   tile.type = 'button';
+   tile.className = `element-tile ${categoryClass(el.category)}`;
+   tile.style.gridColumn = Number(el.xpos) || 1;
+   tile.style.gridRow = Number(el.ypos) || 1;
+   tile.dataset.category = groupOf(el);
+   tile.dataset.search = clean(`${el.name} ${el.symbol} ${el.number} ${el.category}`);
+   tile.setAttribute('aria-label', `${el.number} ${el.name}, ký hiệu ${el.symbol}`);
+   const num = document.createElement('span'); num.className = 'number'; num.textContent = el.number;
+   const symbol = document.createElement('span'); symbol.className = 'symbol'; symbol.textContent = el.symbol;
+   const name = document.createElement('span'); name.className = 'name'; name.textContent = el.name;
+   tile.append(num, symbol, name);
+   tile.addEventListener('click', () => showDetails(el));
+   return tile;
+ }
+ function applyFilters() {
+   const term = clean(search.value);
+   let visible = 0;
+   table.querySelectorAll('.element-tile').forEach(tile => {
+     const matchesText = !term || tile.dataset.search.includes(term);
+     const matchesCategory = activeCategory === 'all' || tile.dataset.category === activeCategory;
+     tile.hidden = !(matchesText && matchesCategory);
+     if (!tile.hidden) visible++;
+   });
+   empty.style.display = visible ? 'none' : 'block';
+   count.textContent = `Đang hiển thị ${visible} / ${elements.length} nguyên tố`;
+ }
+ function setImage(img, candidates) {
+   let index = 0;
+   img.style.display = 'block';
+   img.onerror = () => { index++; if (index < candidates.length) img.src = candidates[index]; else { img.removeAttribute('src'); img.style.display = 'none'; } };
+   img.src = candidates[0];
+ }
+ function showDetails(el) {
+   $('modal-number').textContent = el.number;
+   $('modal-symbol').textContent = el.symbol;
+   $('modal-name-text').textContent = el.name;
+   $('modal-mass-text').textContent = `${el.atomic_mass ?? 'Chưa rõ'} u`;
+   $('modal-number-text').textContent = el.number;
+   $('modal-symbol-text').textContent = el.symbol;
+   $('modal-name-val').textContent = el.name;
+   $('modal-mass-val').textContent = `${el.atomic_mass ?? 'Chưa rõ'} u`;
+   $('modal-category').textContent = translateCategory(el.category);
+   $('modal-phase').textContent = translatePhase(el.phase);
+   $('modal-config').textContent = el.electron_configuration_semantic || el.electron_configuration || 'Chưa có dữ liệu';
+   $('modal-discovered').textContent = el.discovered_by || 'Chưa rõ';
+   $('modal-summary').textContent = el.summary || `Khám phá thông tin về ${el.name} (${el.symbol}), nguyên tố có số hiệu nguyên tử ${el.number}.`;
+   $('modal-tile-card').className = `modal-card element-preview ${categoryClass(el.category)}`;
+   const n = Number(el.number);
+   setImage($('modal-img-appearance'), [`${imageUrl}${n}_real.jpg`, `${imageUrl}${n}_real.png`]);
+   setImage($('modal-img-bohr'), [`${imageUrl}${n}_bohr.png`, `${imageUrl}${n}_bohr.jpg`]);
+   modal.style.display = 'block'; overlay.style.display = 'block';
+   document.body.style.overflow = 'hidden'; $('close-modal').focus();
+ }
+ function closeModal() {
+   modal.style.display = 'none'; overlay.style.display = 'none'; document.body.style.overflow = '';
+ }
+ document.querySelectorAll('.filter-btn').forEach(button => button.addEventListener('click', () => {
+   document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === button));
+   activeCategory = button.dataset.category; applyFilters();
+ }));
+ search.addEventListener('input', applyFilters);
+ $('close-modal').addEventListener('click', closeModal);
+ overlay.addEventListener('click', closeModal);
+ document.addEventListener('keydown', event => { if (event.key === 'Escape' && modal.style.display === 'block') closeModal(); });
+ fetch(dataUrl).then(response => { if (!response.ok) throw new Error('Không tải được dữ liệu'); return response.json(); })
+   .then(data => {
+     elements = data.elements || data;
+     elements.sort((a,b) => Number(a.number) - Number(b.number));
+     const fragment = document.createDocumentFragment();
+     elements.forEach(el => { if (el.xpos && el.ypos) fragment.appendChild(makeTile(el)); });
+     table.appendChild(fragment); applyFilters();
+   })
+   .catch(error => {
+     console.error(error); count.textContent = 'Không tải được dữ liệu. Hãy kiểm tra kết nối hoặc đường dẫn static.';
+     empty.style.display = 'block'; empty.textContent = 'Dữ liệu bảng tuần hoàn chưa tải được. Vui lòng tải lại trang.';
+   });
+})();
+</script>
+{% endblock %}
